@@ -1,0 +1,82 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM01
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "C:\\Users\\Jose\\Documents\\VGPDM\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Jose\\Documents\\VGPDM\\VGPDM";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "ADEL_F58";
+		defaultceiltexture = "ADEL_F53";
+		defaulttoptexture = "QFLAT04";
+		defaultwalltexture = "QFLAT04";
+		defaultbottomtexture = "QFLAT04";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = -254.1187f;
+		viewpositiony = -81.34549f;
+		viewscale = 0.6156274f;
+		scriptcompiler = "zandronum_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32f;
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+			}
+			
+			sector
+			{
+				rotationfloor = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+			}
+		}
+	}
+}
