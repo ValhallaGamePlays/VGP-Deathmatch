@@ -1,0 +1,92 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "SCLAVAA1";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\user\\Documents\\SSGL\\Iwads\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "C:\\Users\\user\\Documents\\VGPInvasion\\vgpinvasion.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "GRIDRUST";
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				xpanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningfloor = 1;
+				ypanningceiling = 1;
+			}
+			
+			sidedef
+			{
+				scalex_top = 1;
+				scaley_top = 1;
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				scalex_bottom = 1;
+				offsety_mid = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+				scalex_mid = 1;
+			}
+		}
+		viewpositionx = 1848.796f;
+		viewpositiony = -1526.631f;
+		viewscale = 0.3126924f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "SKY2NO";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "GRIDRUST";
+		defaultbottomtexture = "GRIDRUST";
+	}
+}
