@@ -26,7 +26,16 @@ maps
 			resource1
 			{
 				type = 2;
-				location = "C:\\Users\\user\\Documents\\VGPInvasion\\vgpinvasion.pk3";
+				location = "C:\\Users\\user\\AppData\\Roaming\\.doomseeker\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 1;
+				location = "C:\\Users\\user\\Documents\\VGPDM\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -34,35 +43,9 @@ maps
 		}
 		defaulttoptexture = "GRIDRUST";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				xpanningfloor = 1;
-				xpanningceiling = 1;
-				ypanningfloor = 1;
-				ypanningceiling = 1;
-			}
-			
-			sidedef
-			{
-				scalex_top = 1;
-				scaley_top = 1;
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				scalex_bottom = 1;
-				offsety_mid = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-				scalex_mid = 1;
-			}
-		}
-		viewpositionx = 1848.796f;
-		viewpositiony = -1526.631f;
-		viewscale = 0.3126924f;
+		viewpositionx = 1683.096f;
+		viewpositiony = -1567.588f;
+		viewscale = 1.509305f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -75,9 +58,9 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 32f;
+			gridsize = 4f;
 		}
-		defaultceiltexture = "SKY2NO";
+		defaultceiltexture = "GRIDRUST";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -88,5 +71,34 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "GRIDRUST";
 		defaultbottomtexture = "GRIDRUST";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				scalex_mid = 1;
+				scalex_top = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				scalex_bottom = 1;
+				scaley_top = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				lightceiling = 0;
+				lightfloor = 0;
+			}
+		}
 	}
 }
