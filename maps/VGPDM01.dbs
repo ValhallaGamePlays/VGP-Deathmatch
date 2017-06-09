@@ -23,7 +23,7 @@ maps
 			resource1
 			{
 				type = 1;
-				location = "C:\\Users\\Jose\\Documents\\VGPDM\\VGPDM";
+				location = "C:\\Users\\Jose\\Documents\\VGPDM\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -254.1187f;
-		viewpositiony = -81.34549f;
-		viewscale = 0.6156274f;
+		viewpositionx = -899.7339f;
+		viewpositiony = -98.80721f;
+		viewscale = 0.2155477f;
 		scriptcompiler = "zandronum_acs.cfg";
 		
 		grid
@@ -60,7 +60,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32f;
+			gridsize = 128f;
 		}
 		
 		fieldtypes
