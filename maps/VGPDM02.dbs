@@ -41,11 +41,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "GRIDRUST";
+		defaulttoptexture = "BR10";
 		overridemiddletexture = false;
-		viewpositionx = 1683.096f;
-		viewpositiony = -1567.588f;
-		viewscale = 1.509305f;
+		viewpositionx = 1753.913f;
+		viewpositiony = -1620.177f;
+		viewscale = 0.5284495f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -58,9 +58,9 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 4f;
+			gridsize = 8f;
 		}
-		defaultceiltexture = "GRIDRUST";
+		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -69,8 +69,8 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "GRIDRUST";
-		defaultbottomtexture = "GRIDRUST";
+		defaultwalltexture = "BR10";
+		defaultbottomtexture = "BR10";
 		
 		fieldtypes
 		{
@@ -95,6 +95,9 @@ maps
 				ypanningceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
+				damagetype = 2;
+				damageamount = 0;
+				damageinterval = 0;
 				rotationfloor = 1;
 				lightceiling = 0;
 				lightfloor = 0;
