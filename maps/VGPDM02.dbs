@@ -8,7 +8,7 @@ maps
 	MAP01
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "SCLAVAA1";
+		defaultfloortexture = "LAVA4";
 		overrideceilheight = false;
 		
 		resources
@@ -43,9 +43,9 @@ maps
 		}
 		defaulttoptexture = "BR10";
 		overridemiddletexture = false;
-		viewpositionx = 1753.913f;
-		viewpositiony = -1620.177f;
-		viewscale = 0.5284495f;
+		viewpositionx = 1216.01f;
+		viewpositiony = -1489.509f;
+		viewscale = 4.310721f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -87,6 +87,7 @@ maps
 				offsety_bottom = 1;
 				scalex_bottom = 1;
 				scaley_top = 1;
+				scaley_mid = 1;
 			}
 			
 			sector
@@ -101,6 +102,7 @@ maps
 				rotationfloor = 1;
 				lightceiling = 0;
 				lightfloor = 0;
+				gravity = 1;
 			}
 		}
 	}
