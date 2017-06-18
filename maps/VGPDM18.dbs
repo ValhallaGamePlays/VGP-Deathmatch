@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -1542.219f;
-		viewpositiony = 1101.037f;
-		viewscale = 0.1792153f;
+		viewpositionx = -1188.411f;
+		viewpositiony = 894.7956f;
+		viewscale = 0.3937346f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -60,7 +60,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 128f;
+			gridsize = 64f;
 		}
 		
 		fieldtypes
@@ -86,6 +86,30 @@ maps
 				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 79;
+				activetab = true;
 			}
 		}
 	}
