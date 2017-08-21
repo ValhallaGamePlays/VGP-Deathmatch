@@ -1,0 +1,143 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "STARG3";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp1";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp2";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\graphics";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "STARTAN3";
+		overridemiddletexture = false;
+		viewpositionx = 944.8573f;
+		viewpositiony = 1543.711f;
+		viewscale = 0.1924674f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "STARTAN3";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "STARTAN3";
+		defaultbottomtexture = "STARTAN3";
+	}
+	
+	VGPDM04
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "STARG3";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp1";
+				option1 = 1;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp2";
+				option1 = 1;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 1;
+				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\graphics";
+				option1 = 1;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "STARTAN3";
+		overridemiddletexture = false;
+		viewpositionx = 765.1392f;
+		viewpositiony = 847.6805f;
+		viewscale = 0.2502076f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "STARTAN3";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "STARTAN3";
+		defaultbottomtexture = "STARTAN3";
+	}
+}
