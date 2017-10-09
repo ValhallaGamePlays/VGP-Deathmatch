@@ -20,6 +20,7 @@ maps
 				notfortesting = 0;
 			}
 			
+			
 			resource1
 			{
 				type = 0;
@@ -28,7 +29,9 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
 		}
+		
 		defaultfloortexture = "OLTX0372";
 		defaultceiltexture = "OLTX0308";
 		defaulttoptexture = "OLTX0697";
@@ -63,6 +66,7 @@ maps
 			gridsize = 8f;
 		}
 		
+		
 		fieldtypes
 		{
 			
@@ -81,6 +85,7 @@ maps
 				scaley_bottom = 1;
 			}
 			
+			
 			sector
 			{
 				rotationfloor = 1;
@@ -95,8 +100,11 @@ maps
 				xscalefloor = 1;
 				yscalefloor = 1;
 			}
+			
 		}
+		
 	}
+	
 	
 	VGPDM08
 	{
@@ -113,24 +121,28 @@ maps
 				notfortesting = 0;
 			}
 			
+			
 			resource1
 			{
 				type = 0;
-				location = "C:\\Users\\user\\Documents\\VGPDM\\VGP-Deathmatch\\maps\\outlwtex.wad";
+				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch\\maps\\outlwtex.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 			
+			
 			resource2
 			{
 				type = 1;
-				location = "C:\\Users\\user\\Documents\\VGPDM\\VGP-Deathmatch";
+				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
 		}
+		
 		defaultfloortexture = "OLTX0372";
 		defaultceiltexture = "F_SKY1";
 		defaulttoptexture = "OLTX0758";
@@ -149,9 +161,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1824.336f;
-		viewpositiony = 1450.049f;
-		viewscale = 0.302874f;
+		viewpositionx = -1493.011f;
+		viewpositiony = 976.723f;
+		viewscale = 2.470632f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -162,8 +174,9 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
+			gridsize = 4;
 		}
+		
 		
 		fieldtypes
 		{
@@ -172,8 +185,8 @@ maps
 			{
 				offsetx_mid = 1;
 				offsety_mid = 1;
-				scaley_top = 1;
 				scalex_top = 1;
+				scaley_top = 1;
 				offsetx_bottom = 1;
 				scalex_mid = 1;
 				scaley_mid = 1;
@@ -184,22 +197,27 @@ maps
 				offsetx_top = 1;
 			}
 			
+			
 			sector
 			{
 				rotationfloor = 1;
 				xpanningfloor = 1;
 				gravity = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
 				rotationceiling = 1;
+				xpanningceiling = 1;
 				xscaleceiling = 1;
-				yscaleceiling = 1;
-				ypanningfloor = 1;
 				xscalefloor = 1;
+				ypanningceiling = 1;
+				ypanningfloor = 1;
+				yscaleceiling = 1;
 				yscalefloor = 1;
-				fogdensity = 0;
 				ceilingglowcolor = 0;
+				fogdensity = 0;
 			}
+			
 		}
+		
 	}
+	
 }
+

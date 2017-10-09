@@ -17,34 +17,38 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "C:\\Users\\user\\Documents\\SSGL\\Iwads\\DOOM2.WAD";
+				location = "C:\\Games\\Doom\\SSGL\\Iwads\\DOOM2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
 			
 			resource1
 			{
 				type = 2;
-				location = "C:\\Users\\user\\AppData\\Roaming\\.doomseeker\\skulltag_content-3.0-beta01.pk3";
+				location = "C:\\Users\\Dantos\\AppData\\Roaming\\.doomseeker\\skulltag_content-3.0-beta01.pk3";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 			
+			
 			resource2
 			{
 				type = 1;
-				location = "C:\\Users\\user\\Documents\\VGPDM\\VGP-Deathmatch";
+				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
 		}
+		
 		defaulttoptexture = "BR10";
 		overridemiddletexture = false;
-		viewpositionx = 1757.27f;
-		viewpositiony = -1425.318f;
+		viewpositionx = 1829.92f;
+		viewpositiony = -1777.959f;
 		viewscale = 0.5284491f;
 		overridefloortexture = false;
 		customceilheight = 128;
@@ -58,8 +62,9 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 8f;
+			gridsize = 8;
 		}
+		
 		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
 		uselongtexturenames = false;
@@ -77,33 +82,38 @@ maps
 			
 			sidedef
 			{
+				offsetx_bottom = 1;
 				offsetx_mid = 1;
 				offsety_mid = 1;
-				offsetx_bottom = 1;
 				scalex_mid = 1;
-				scalex_top = 1;
 				offsetx_top = 1;
 				offsety_top = 1;
+				scalex_top = 1;
 				offsety_bottom = 1;
 				scalex_bottom = 1;
 				scaley_top = 1;
 				scaley_mid = 1;
 			}
 			
+			
 			sector
 			{
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				damagetype = 2;
 				damageamount = 0;
 				damageinterval = 0;
+				damagetype = 2;
+				xpanningceiling = 1;
+				xpanningfloor = 1;
+				ypanningceiling = 1;
+				ypanningfloor = 1;
 				rotationfloor = 1;
 				lightceiling = 0;
 				lightfloor = 0;
 				gravity = 1;
 			}
+			
 		}
+		
 	}
+	
 }
+
