@@ -1,0 +1,11 @@
+map vgpdm04 "Station RGR787"
+
+{
+sky1 = "styx" , 0
+next = "map02"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}

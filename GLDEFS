@@ -1,1 +1,17 @@
 //Open GL Definitions//
+
+
+//////////////
+// Skyboxes //
+//////////////
+
+//Styx
+skybox STYX
+{
+VAD_N
+VAD_E
+VAD_S
+VAD_W
+VAD_T
+VAD_B
+}
