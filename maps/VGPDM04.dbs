@@ -16,26 +16,17 @@ maps
 			
 			resource0
 			{
-				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp1";
+				type = 0;
+				location = "B:\\Games\\Doom\\Wads\\skulltag_content-3.0-beta01.pk3";
 				option1 = 0;
 				option2 = 0;
-				notfortesting = 0;
+				notfortesting = 1;
 			}
 			
 			resource1
 			{
 				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp2";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource2
-			{
-				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\graphics";
+				location = "C:\\Users\\M\\Documents\\VGPDM\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -43,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "STARTAN3";
 		overridemiddletexture = false;
-		viewpositionx = 944.8573f;
-		viewpositiony = 1543.711f;
-		viewscale = 0.1924674f;
+		viewpositionx = 2228.53f;
+		viewpositiony = 2401.228f;
+		viewscale = 0.4228507f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -71,6 +62,44 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "STARTAN3";
 		defaultbottomtexture = "STARTAN3";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsety_mid = 1;
+				offsety_top = 1;
+				offsetx_top = 1;
+				offsetx_mid = 1;
+				offsety_bottom = 1;
+				offsetx_bottom = 1;
+				light = 0;
+				scaley_bottom = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				gravity = 1;
+				damagetype = 2;
+				damageamount = 0;
+				leakiness = 0;
+				lightceiling = 0;
+				ceiling_reflect = 1;
+				floorglowheight = 1;
+				lightfloor = 0;
+				rotationceiling = 1;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+			}
+		}
 	}
 	
 	VGPDM04
