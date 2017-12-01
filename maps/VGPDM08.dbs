@@ -20,7 +20,6 @@ maps
 				notfortesting = 0;
 			}
 			
-			
 			resource1
 			{
 				type = 0;
@@ -29,9 +28,7 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
-			
 		}
-		
 		defaultfloortexture = "OLTX0372";
 		defaultceiltexture = "OLTX0308";
 		defaulttoptexture = "OLTX0697";
@@ -66,7 +63,6 @@ maps
 			gridsize = 8f;
 		}
 		
-		
 		fieldtypes
 		{
 			
@@ -85,7 +81,6 @@ maps
 				scaley_bottom = 1;
 			}
 			
-			
 			sector
 			{
 				rotationfloor = 1;
@@ -100,11 +95,8 @@ maps
 				xscalefloor = 1;
 				yscalefloor = 1;
 			}
-			
 		}
-		
 	}
-	
 	
 	VGPDM08
 	{
@@ -121,7 +113,6 @@ maps
 				notfortesting = 0;
 			}
 			
-			
 			resource1
 			{
 				type = 0;
@@ -131,7 +122,6 @@ maps
 				notfortesting = 0;
 			}
 			
-			
 			resource2
 			{
 				type = 1;
@@ -140,11 +130,9 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
-			
 		}
-		
-		defaultfloortexture = "OLTX0372";
-		defaultceiltexture = "F_SKY1";
+		defaultfloortexture = "SCROCKW0";
+		defaultceiltexture = "FLOOR6_2";
 		defaulttoptexture = "OLTX0758";
 		defaultwalltexture = "OLTX0758";
 		defaultbottomtexture = "OLTX0758";
@@ -161,9 +149,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -1493.011f;
-		viewpositiony = 976.723f;
-		viewscale = 2.470632f;
+		viewpositionx = 1665.453f;
+		viewpositiony = 1469.673f;
+		viewscale = 2.470627f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -174,9 +162,8 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 4;
+			gridsize = 8f;
 		}
-		
 		
 		fieldtypes
 		{
@@ -197,27 +184,22 @@ maps
 				offsetx_top = 1;
 			}
 			
-			
 			sector
 			{
-				rotationfloor = 1;
 				xpanningfloor = 1;
+				ypanningfloor = 1;
 				gravity = 1;
 				rotationceiling = 1;
+				rotationfloor = 1;
 				xpanningceiling = 1;
 				xscaleceiling = 1;
 				xscalefloor = 1;
 				ypanningceiling = 1;
-				ypanningfloor = 1;
 				yscaleceiling = 1;
 				yscalefloor = 1;
 				ceilingglowcolor = 0;
 				fogdensity = 0;
 			}
-			
 		}
-		
 	}
-	
 }
-
