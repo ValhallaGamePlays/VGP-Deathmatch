@@ -114,34 +114,16 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp1";
-				option1 = 1;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource1
-			{
-				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\textures\\NMNCorp2";
-				option1 = 1;
-				option2 = 0;
-				notfortesting = 0;
-			}
-			
-			resource2
-			{
-				type = 1;
-				location = "C:\\Cygwin\\home\\M\\VGP-Deathmatch\\graphics";
-				option1 = 1;
+				location = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch";
+				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 		}
 		defaulttoptexture = "STARTAN3";
 		overridemiddletexture = false;
-		viewpositionx = 393.6895f;
-		viewpositiony = 1125.239f;
+		viewpositionx = -253.2392f;
+		viewpositiony = 1053.102f;
 		viewscale = 0.3252684f;
 		overridefloortexture = true;
 		customceilheight = 128;
@@ -172,19 +154,15 @@ maps
 		fieldtypes
 		{
 			
-			linedef
-			{
-				alpha = 1;
-			}
-			
 			sidedef
 			{
 				offsety_mid = 1;
 				offsety_top = 1;
 				offsetx_top = 1;
-				offsety_bottom = 1;
 				offsetx_mid = 1;
+				offsety_bottom = 1;
 				offsetx_bottom = 1;
+				light = 0;
 				scaley_bottom = 1;
 			}
 			
@@ -192,11 +170,6 @@ maps
 			{
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				rotationceiling = 1;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
 				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
@@ -204,6 +177,15 @@ maps
 				damagetype = 2;
 				damageamount = 0;
 				leakiness = 0;
+				lightceiling = 0;
+				ceiling_reflect = 1;
+				floorglowheight = 1;
+				lightfloor = 0;
+				rotationceiling = 1;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
 			}
 		}
 		
