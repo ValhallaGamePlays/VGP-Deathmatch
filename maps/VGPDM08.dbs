@@ -115,9 +115,9 @@ maps
 			
 			resource1
 			{
-				type = 0;
-				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch\\maps\\outlwtex.wad";
-				option1 = 0;
+				type = 1;
+				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch\\textures\\Outlaws";
+				option1 = 1;
 				option2 = 0;
 				notfortesting = 0;
 			}
@@ -149,8 +149,8 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1665.453f;
-		viewpositiony = 1469.673f;
+		viewpositionx = 1310.249f;
+		viewpositiony = -313.8598f;
 		viewscale = 2.470627f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
