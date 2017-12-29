@@ -122,9 +122,9 @@ maps
 		}
 		defaulttoptexture = "STARTAN3";
 		overridemiddletexture = false;
-		viewpositionx = -253.2392f;
-		viewpositiony = 1053.102f;
-		viewscale = 0.3252684f;
+		viewpositionx = 1372.101f;
+		viewpositiony = 82.48418f;
+		viewscale = 0.2502058f;
 		overridefloortexture = true;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -134,7 +134,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 32f;
+			gridsize = 16f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -148,7 +148,7 @@ maps
 		overridetoptexture = true;
 		custombrightness = 196;
 		overrideceiltexture = true;
-		defaultwalltexture = "STARTAN3";
+		defaultwalltexture = "GRAY1";
 		defaultbottomtexture = "STARTAN3";
 		
 		fieldtypes
@@ -157,9 +157,9 @@ maps
 			sidedef
 			{
 				offsety_mid = 1;
+				offsetx_mid = 1;
 				offsety_top = 1;
 				offsetx_top = 1;
-				offsetx_mid = 1;
 				offsety_bottom = 1;
 				offsetx_bottom = 1;
 				light = 0;
