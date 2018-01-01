@@ -1,8 +1,56 @@
+map vgpdm01 "Gothic ESND"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm02"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm02 "Lava Hall"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm04"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
 map vgpdm04 "Station RGR787"
 
 {
 sky1 = "styx" , 0
-next = "map02"
+next = "vgpdm08"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm08 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm18"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm18 "The Cell"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm01"
 music = ""
 lightmode = 2
 fade = a94012
