@@ -14,8 +14,20 @@ map vgpdm02 "Lava Hall"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm04"
+next = "vgpdm03"
 music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm03 "Bitterman's Revenge"
+
+{
+sky1 = "SKY1" , 0
+next = "vgpdm04"
+music = "DM_NIN"
 lightmode = 2
 fade = a94012
 FogDensity = 16
