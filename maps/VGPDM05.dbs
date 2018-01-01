@@ -1,0 +1,99 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM05
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "SHAWN2";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Games\\Doom\\iwads\\doom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Dantos\\Documents\\GitHub\\VGP-Deathmatch\\textures\\Half-life";
+				option1 = 1;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "STARTAN2";
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				xpanningceiling = 1;
+				rotationfloor = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				scalex_top = 1;
+				scaley_top = 1;
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				scalex_bottom = 1;
+				offsety_mid = 1;
+				scaley_bottom = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+				scaley_mid = 1;
+			}
+		}
+		viewpositionx = -777.5542f;
+		viewpositiony = 50.42722f;
+		viewscale = 0.3001645f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "F_SKY1";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "STARTAN2";
+		defaultbottomtexture = "STARTAN2";
+	}
+}
