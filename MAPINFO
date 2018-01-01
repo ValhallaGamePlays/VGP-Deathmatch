@@ -1,1 +1,48 @@
 //Map Info//
+
+clearepisodes
+
+episode VGPDM01
+name "VGP DEATHMATCH"
+
+
+map VGPDM01 "Gothic ESND"
+
+next "VGPDM02"
+secretnext "VGPDM13"
+sky1 "lavasky1"
+music "V_MUS01"
+ExitPic "INTERPIC"
+
+map VGPDM02 "Lava Halls"
+
+next "VGPDMV03"
+secretnext "VGPDM13"
+sky1 "vad_t"
+music "V_MUS02"
+ExitPic "INTERPIC"
+
+map VGPDM04 "Station RGR787"
+
+next "VGPDM08"
+secretnext "VGPDM13"
+sky1 "lavasky1"
+music "V_MUS03"
+ExitPic "INTERPIC"
+
+map VGPDM08 "Memphis08"
+
+next "VGPDM18"
+secretnext "VGPDM13"
+sky1 "LAVASKY1"
+music "V_MUS04"
+ExitPic "INTERPIC"
+
+map VGPDM18 "The Cell"
+
+next "VGPDM01"
+secretnext "VGPDM13"
+sky1 "vad_b"
+music "V_MUS05"
+ExitPic "INTERPIC"
+
