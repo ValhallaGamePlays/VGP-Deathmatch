@@ -46,6 +46,18 @@ FogDensity = 16
 cluster = 2
 }
 
+map vgpdm07 "Demos Training Center"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm08"
+music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
 map vgpdm08 "Untitled"
 
 {
