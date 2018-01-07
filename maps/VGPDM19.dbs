@@ -34,36 +34,9 @@ maps
 		}
 		defaulttoptexture = "C8BRIK08";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				ypanningfloor = 1;
-				yscaleceiling = 1;
-				rotationfloor = 17;
-				ypanningceiling = 1;
-				xpanningceiling = 1;
-				yscalefloor = 1;
-				xpanningfloor = 1;
-				xscalefloor = 1;
-				rotationceiling = 17;
-				xscaleceiling = 1;
-			}
-			
-			sidedef
-			{
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-			}
-		}
-		viewpositionx = 1517.637f;
-		viewpositiony = -57.85024f;
-		viewscale = 0.1025852f;
+		viewpositionx = -1161.604f;
+		viewpositiony = 323.1574f;
+		viewscale = 0.3808915f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -73,7 +46,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 256f;
+			gridsize = 64f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -89,5 +62,32 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "C8BRIK08";
 		defaultbottomtexture = "C8BRIK08";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
 	}
 }
