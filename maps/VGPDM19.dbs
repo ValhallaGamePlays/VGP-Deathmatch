@@ -34,8 +34,8 @@ maps
 		}
 		defaulttoptexture = "C8BRIK08";
 		overridemiddletexture = false;
-		viewpositionx = -1161.604f;
-		viewpositiony = 323.1574f;
+		viewpositionx = -1003.807f;
+		viewpositiony = 32.88972f;
 		viewscale = 0.3808915f;
 		overridefloortexture = false;
 		customceilheight = 128;
