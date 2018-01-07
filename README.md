@@ -18,3 +18,7 @@ http://files.valhallagameplays.info/wads/skulltag_content-3.0-beta01.pk3
 
 VGP Community Discord:
 https://discord.gg/74RF7Vz
+
+Make Contact:
+akthunderfolk@gmail.com
+valhallagameplays.info
