@@ -8,7 +8,7 @@ maps
 	VGPDM05
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "SHAWN2";
+		defaultfloortexture = "BSTX0220";
 		overrideceilheight = false;
 		
 		resources
@@ -32,44 +32,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "STARTAN2";
+		defaulttoptexture = "DCTX0048";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				ypanningfloor = 1;
-				yscaleceiling = 1;
-				yscalefloor = 1;
-				ypanningceiling = 1;
-				rotationceiling = 1;
-				xpanningfloor = 1;
-				xscalefloor = 1;
-				xpanningceiling = 1;
-				rotationfloor = 1;
-				xscaleceiling = 1;
-			}
-			
-			sidedef
-			{
-				scalex_top = 1;
-				scaley_top = 1;
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				scalex_bottom = 1;
-				offsety_mid = 1;
-				scaley_bottom = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-				scaley_mid = 1;
-			}
-		}
-		viewpositionx = -777.5542f;
-		viewpositiony = 50.42722f;
-		viewscale = 0.3001645f;
+		viewpositionx = -2088.266f;
+		viewpositiony = 570.952f;
+		viewscale = 1.448831f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -84,7 +51,7 @@ maps
 			backsource = 0;
 			gridsize = 32f;
 		}
-		defaultceiltexture = "F_SKY1";
+		defaultceiltexture = "OPTX0055";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -93,7 +60,43 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "STARTAN2";
-		defaultbottomtexture = "STARTAN2";
+		defaultwalltexture = "DCTX0048";
+		defaultbottomtexture = "DCTX0048";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				scaley_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				scaley_bottom = 1;
+				scalex_bottom = 1;
+				scaley_top = 1;
+				scalex_top = 1;
+				light = 0;
+				scalex_mid = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				yscalefloor = 1;
+				xscalefloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				rotationfloor = 1;
+				gravity = 1;
+			}
+		}
 	}
 }
