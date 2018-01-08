@@ -2,19 +2,19 @@ VGPDM01 - Miles - Gothic ESDN 'One that you think will match the style'
 VGPDM02 - Dantos - Lava Hall 'Midi Metal'
 VGPDM03 - done 
 VGPDM04 - =M= - Station RGR787
-VGPDM05 - 
-VGPDM06 - 
+VGPDM05 - Dantos
+VGPDM06 - Enchanter?
 VGPDM07 - Bxn - Deimos Training Center 'https://www.youtube.com/watch?v=93ATlvVV1w4'
 VGPDM08 - Dantos - Working Title 'Western theme'
-VGPDM09 -
-VGPDM10 -
+VGPDM09 - Mondo?
+VGPDM10 - 
 VGPDM11 - Bxn - SEWERDM 'Seek and Destroy kinda feel'
-VGPDM12 -
-VGPDM13 -
+VGPDM12 - Juno
+VGPDM13 - Diaz
 VGPDM14 -
 VGPDM15 -
-VGPDM16 -
-VGPDM17 -
+VGPDM16 - Mondo
+VGPDM17 - Bxn
 VGPDM18 - Miles - The Cell 'One that you think will match the style'
 VGPDM19 - Miles - Working Title 'One that you think will match the style'
-VGPDM20
+VGPDM20 - Enchanter?
