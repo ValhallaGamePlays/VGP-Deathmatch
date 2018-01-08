@@ -16,47 +16,9 @@ maps
 		}
 		defaulttoptexture = "GRAY1";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				yscaleceiling = 1;
-				xscalefloor = 1;
-				rotationceiling = 17;
-				damagetype = 2;
-				lightceiling = 0;
-				leakiness = 0;
-				ypanningfloor = 1;
-				ypanningceiling = 1;
-				yscalefloor = 1;
-				gravity = 1;
-				floorglowheight = 1;
-				xpanningfloor = 1;
-				ceiling_reflect = 1;
-				xpanningceiling = 1;
-				lightfloor = 0;
-				xscaleceiling = 1;
-				rotationfloor = 1;
-				damageamount = 0;
-			}
-			
-			sidedef
-			{
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				offsety_mid = 1;
-				light = 0;
-				scaley_bottom = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-			}
-		}
-		viewpositionx = 993.0577f;
-		viewpositiony = 831.8986f;
-		viewscale = 0.2555088f;
+		viewpositionx = 2491.581f;
+		viewpositiony = 731.0929f;
+		viewscale = 0.3321612f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -82,5 +44,43 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "GRAY1";
 		defaultbottomtexture = "GRAY1";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsety_mid = 1;
+				offsetx_mid = 1;
+				offsety_top = 1;
+				offsetx_top = 1;
+				offsety_bottom = 1;
+				offsetx_bottom = 1;
+				light = 0;
+				scaley_bottom = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				gravity = 1;
+				damagetype = 2;
+				damageamount = 0;
+				leakiness = 0;
+				lightceiling = 0;
+				ceiling_reflect = 1;
+				floorglowheight = 1;
+				lightfloor = 0;
+				rotationceiling = 1;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+			}
+		}
 	}
 }
