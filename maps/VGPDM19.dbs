@@ -45,23 +45,56 @@ maps
 =======
 		defaulttoptexture = "C8BRIK08";
 		overridemiddletexture = false;
+<<<<<<< HEAD
 		viewpositionx = -1003.807f;
 		viewpositiony = 32.88972f;
 		viewscale = 0.3808915f;
 >>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
+=======
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				rotationfloor = 1;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsetx_mid = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+			}
+		}
+		viewpositionx = -2606.271f;
+		viewpositiony = -826.6863f;
+		viewscale = 0.06070142f;
+>>>>>>> cdb735ed46515f9d6900607930d0fc925d544985
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
 		
 		grid
 		{
-			backoffsety = 0;
-			backoffsetx = 0;
-			backscalex = 100;
-			gridsize = 64f;
 			background = "";
-			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
 			backscaley = 100;
+			backsource = 0;
+			gridsize = 512f;
 		}
 <<<<<<< HEAD:maps/VGPDM05.dbs
 		defaultceiltexture = "OPTX0055";
@@ -82,6 +115,7 @@ maps
 =======
 		defaultwalltexture = "C8BRIK08";
 		defaultbottomtexture = "C8BRIK08";
+<<<<<<< HEAD
 >>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
 		
 		fieldtypes
@@ -137,5 +171,7 @@ maps
 >>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
 			}
 		}
+=======
+>>>>>>> cdb735ed46515f9d6900607930d0fc925d544985
 	}
 }

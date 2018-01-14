@@ -38,11 +38,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "FLOOR0_1";
-		defaultceiltexture = "CEIL1_1";
-		defaulttoptexture = "STARTAN1";
-		defaultwalltexture = "STARTAN1";
-		defaultbottomtexture = "STARTAN1";
+		defaultfloortexture = "C8FLAT02";
+		defaultceiltexture = "C8FLAT02";
+		defaulttoptexture = "C8BRIK02";
+		defaultwalltexture = "C8BRIK02";
+		defaultbottomtexture = "C8BRIK02";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -56,9 +56,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 4133.665f;
-		viewpositiony = -1934.79f;
-		viewscale = 0.06129474f;
+		viewpositionx = -6147.29f;
+		viewpositiony = 1594.314f;
+		viewscale = 0.07968302f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -69,7 +69,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 512f;
+			gridsize = 256f;
 		}
 	}
 }

@@ -5,10 +5,10 @@ strictpatches = 0;
 maps
 {
 	
-	VGPDM04
+	VGPDM16
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "FLAT3";
+		defaultfloortexture = "FLOOR6_2";
 		overrideceilheight = false;
 		
 		resources
@@ -16,14 +16,32 @@ maps
 			
 			resource0
 			{
+				type = 0;
+				location = "C:\\Users\\rplatt2020\\Desktop\\stuff from school laptop\\doom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
 				type = 2;
-				location = "B:\\Games\\Doom\\Wads\\skulltag_content-3.0-beta01.pk3";
+				location = "C:\\Users\\Administrator\\Desktop\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 1;
+				location = "C:\\Users\\Administrator\\Documents\\VGPDM\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "GRAY1";
+		defaulttoptexture = "STONE2";
 		overridemiddletexture = false;
 		
 		fieldtypes
@@ -31,37 +49,26 @@ maps
 			
 			sector
 			{
-				ypanningfloor = 1;
-				xpanningceiling = 1;
-				yscaleceiling = 1;
-				yscalefloor = 1;
-				damagetype = 2;
-				ypanningceiling = 1;
-				lightceiling = 0;
-				rotationceiling = 1;
-				damageamount = 0;
-				xpanningfloor = 1;
-				lightfloor = 0;
-				xscalefloor = 1;
 				rotationfloor = 1;
-				xscaleceiling = 1;
-				lightfloorabsolute = 3;
+				rotationceiling = 1;
+				xpanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningfloor = 1;
+				ypanningceiling = 1;
 			}
 			
 			sidedef
 			{
 				offsetx_bottom = 1;
-				offsetx_top = 1;
 				offsety_mid = 1;
-				offsety_bottom = 1;
+				offsetx_top = 1;
 				offsety_top = 1;
-				scaley_bottom = 1;
 				offsetx_mid = 1;
 			}
 		}
-		viewpositionx = 11776.16f;
-		viewpositiony = 5683.099f;
-		viewscale = 0.02409432f;
+		viewpositionx = 613.3132f;
+		viewpositiony = 289.3586f;
+		viewscale = 0.4125976f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -71,12 +78,12 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 32f;
+			gridsize = 64f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
 		}
-		defaultceiltexture = "FLAT19";
+		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -85,7 +92,7 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "GRAY1";
-		defaultbottomtexture = "GRAY1";
+		defaultwalltexture = "STONE2";
+		defaultbottomtexture = "STONE2";
 	}
 }

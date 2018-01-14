@@ -1,0 +1,66 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM18
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "DKTX1209";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "B:\\Games\\Doom\\Wads\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "DKTX1209";
+		overridemiddletexture = false;
+		viewpositionx = 800f;
+		viewpositiony = 99.62085f;
+		viewscale = 0.1607459f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "F_SKY1";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "DKTX1209";
+		defaultbottomtexture = "DKTX1209";
+	}
+}
