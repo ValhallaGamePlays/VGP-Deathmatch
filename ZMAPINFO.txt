@@ -67,7 +67,7 @@ music = "DM_08"
 lightmode = 2
 fade = a94012
 FogDensity = 16
-cluster = 2
+cluster = 2git a
 }
 
 map vgpdm11 "SEWERDM"
