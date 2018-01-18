@@ -43,43 +43,9 @@ maps
 		}
 		defaulttoptexture = "BR10";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				ypanningfloor = 1;
-				damagetype = 2;
-				ypanningceiling = 1;
-				damageinterval = 0;
-				xpanningceiling = 1;
-				damageamount = 0;
-				gravity = 1;
-				xpanningfloor = 1;
-				lightfloor = 0;
-				lightceiling = 0;
-				rotationfloor = 1;
-			}
-			
-			sidedef
-			{
-				scalex_top = 1;
-				scaley_top = 1;
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				scalex_bottom = 1;
-				offsety_mid = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-				scalex_mid = 1;
-				scaley_mid = 1;
-			}
-		}
-		viewpositionx = 1413.685f;
-		viewpositiony = 44.98817f;
-		viewscale = 0.8003174f;
+		viewpositionx = 1747.082f;
+		viewpositiony = -1736.06f;
+		viewscale = 2.285781f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -92,7 +58,7 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 8f;
+			gridsize = 4f;
 		}
 		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
@@ -105,5 +71,44 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "BR10";
 		defaultbottomtexture = "BR10";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				scalex_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				scalex_top = 1;
+				offsety_bottom = 1;
+				scalex_bottom = 1;
+				scaley_top = 1;
+				scaley_mid = 1;
+			}
+			
+			sector
+			{
+				damageamount = 0;
+				damageinterval = 0;
+				damagetype = 2;
+				xpanningceiling = 1;
+				xpanningfloor = 1;
+				ypanningceiling = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				lightceiling = 0;
+				lightfloor = 0;
+				gravity = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
 	}
 }

@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "DCTX0048";
 		overridemiddletexture = false;
-		viewpositionx = -801.7504f;
-		viewpositiony = 70.82102f;
-		viewscale = 1.484054f;
+		viewpositionx = -2627.79f;
+		viewpositiony = -61.86757f;
+		viewscale = 1.484053f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -49,7 +49,7 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 16f;
+			gridsize = 32f;
 		}
 		defaultceiltexture = "OPTX0055";
 		overridebrightness = false;
@@ -91,10 +91,10 @@ maps
 				xscalefloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				gravity = 1;
 			}
 		}
