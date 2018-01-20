@@ -74,8 +74,32 @@ map vgpdm11 "SEWERDM"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm18"
+next = "vgpdm12"
 music = "DM_11"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm12 "untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm17"
+music = "DM_12"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm17 "untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm18"
+music = "DM_17"
 lightmode = 2
 fade = a94012
 FogDensity = 16
