@@ -43,9 +43,9 @@ maps
 		}
 		defaulttoptexture = "BR10";
 		overridemiddletexture = false;
-		viewpositionx = 1747.082f;
-		viewpositiony = -1736.06f;
-		viewscale = 2.285781f;
+		viewpositionx = -2363.943f;
+		viewpositiony = -3071.91f;
+		viewscale = 0.07546942f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;

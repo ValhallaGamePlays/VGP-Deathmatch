@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "DCTX0048";
 		overridemiddletexture = false;
-		viewpositionx = -2627.79f;
-		viewpositiony = -61.86757f;
-		viewscale = 1.484053f;
+		viewpositionx = -2244.886f;
+		viewpositiony = -383.4057f;
+		viewscale = 1.141579f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
