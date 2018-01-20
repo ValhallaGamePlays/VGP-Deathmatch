@@ -8,12 +8,6 @@ maps
 	VGPDM19
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-<<<<<<< HEAD:maps/VGPDM05.dbs
-		defaultfloortexture = "BSTX0220";
-=======
-		defaultfloortexture = "C8PANL03";
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
-		overrideceilheight = false;
 		
 		resources
 		{
@@ -36,175 +30,65 @@ maps
 				notfortesting = 0;
 			}
 		}
-<<<<<<< HEAD
+		defaultfloortexture = "ORG08";
+		defaultceiltexture = "C8PANL02";
 		defaulttoptexture = "TEK1";
-		overridemiddletexture = false;
-		viewpositionx = -663.7133f;
-		viewpositiony = 587.6251f;
-		viewscale = 1.414222f;
-=======
-<<<<<<< HEAD:maps/VGPDM05.dbs
-		defaulttoptexture = "DCTX0048";
-		overridemiddletexture = false;
-		viewpositionx = -2088.266f;
-		viewpositiony = 570.952f;
-		viewscale = 1.448831f;
-=======
-		defaulttoptexture = "C8BRIK08";
-		overridemiddletexture = false;
-<<<<<<< HEAD
-		viewpositionx = -1003.807f;
-		viewpositiony = 32.88972f;
-		viewscale = 0.3808915f;
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
-=======
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				ypanningfloor = 1;
-				yscaleceiling = 1;
-				rotationfloor = 1;
-				ypanningceiling = 1;
-				xpanningceiling = 1;
-				yscalefloor = 1;
-				xpanningfloor = 1;
-				xscalefloor = 1;
-				rotationceiling = 1;
-				xscaleceiling = 1;
-			}
-			
-			sidedef
-			{
-				offsetx_bottom = 1;
-				offsetx_mid = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_top = 1;
-			}
-		}
-		viewpositionx = -2606.271f;
-		viewpositiony = -826.6863f;
-		viewscale = 0.06070142f;
->>>>>>> cdb735ed46515f9d6900607930d0fc925d544985
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
-		overridefloortexture = false;
-		customceilheight = 128;
+		defaultwalltexture = "TEK1";
+		defaultbottomtexture = "TEK1";
+		custombrightness = 196;
 		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = -825.1962f;
+		viewpositiony = 898.9733f;
+		viewscale = 0.07891168f;
 		
 		grid
 		{
 			background = "";
+			backsource = 0;
 			backoffsetx = 0;
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			backsource = 0;
-			gridsize = 16f;
+			gridsize = 256f;
 		}
-<<<<<<< HEAD:maps/VGPDM05.dbs
-		defaultceiltexture = "OPTX0055";
-=======
-		defaultceiltexture = "C8PANL02";
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
-		overridebrightness = false;
-		uselongtexturenames = false;
-		useresourcesinreadonlymode = false;
-		overridebottomtexture = false;
-		overridefloorheight = false;
-		overridetoptexture = false;
-		custombrightness = 196;
-		overrideceiltexture = false;
-<<<<<<< HEAD
-		defaultwalltexture = "TEK1";
-		defaultbottomtexture = "TEK1";
-=======
-<<<<<<< HEAD:maps/VGPDM05.dbs
-		defaultwalltexture = "DCTX0048";
-		defaultbottomtexture = "DCTX0048";
-=======
-		defaultwalltexture = "C8BRIK08";
-		defaultbottomtexture = "C8BRIK08";
-<<<<<<< HEAD
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
 		
 		fieldtypes
 		{
 			
 			sidedef
 			{
-<<<<<<< HEAD
 				offsetx_top = 1;
 				offsety_top = 1;
 				offsetx_mid = 1;
 				offsety_mid = 1;
 				offsetx_bottom = 1;
 				offsety_bottom = 1;
-=======
-				offsetx_mid = 1;
-<<<<<<< HEAD:maps/VGPDM05.dbs
-				offsety_mid = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
-				scaley_mid = 1;
-				offsetx_bottom = 1;
-				offsety_bottom = 1;
-				scaley_bottom = 1;
-				scalex_bottom = 1;
-				scaley_top = 1;
-				scalex_top = 1;
-				light = 0;
-				scalex_mid = 1;
-=======
-				offsetx_bottom = 1;
-				offsety_bottom = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
 			}
 			
 			sector
 			{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:maps/VGPDM05.dbs
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				yscalefloor = 1;
-				xscalefloor = 1;
-=======
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
 				xpanningceiling = 1;
 				ypanningceiling = 1;
 				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:maps/VGPDM05.dbs
-				rotationfloor = 1;
-				gravity = 1;
-=======
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
-<<<<<<< HEAD
 			}
 		}
-=======
->>>>>>> e9a859e01e01cf9a288f1e55b30308ac58981456:maps/VGPDM19.dbs
-			}
-		}
-=======
->>>>>>> cdb735ed46515f9d6900607930d0fc925d544985
->>>>>>> f13285c721ca97f19ea564e6b1eb25dabe6f0a01
 	}
 }
