@@ -1,0 +1,75 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomHexen.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM12
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "C8FLAT02";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Jarod\\Desktop\\games\\doom\\wads\\doom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "C:\\Users\\Jarod\\Desktop\\VGPDM\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 1;
+				location = "C:\\Users\\Jarod\\Desktop\\VGPDM\\VGP-Deathmatch";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "C8BRIK02";
+		overridemiddletexture = false;
+		viewpositionx = -6094.187f;
+		viewpositiony = 3205.687f;
+		viewscale = 0.2106267f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 128f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "C8FLAT02";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "C8BRIK02";
+		defaultbottomtexture = "C8BRIK02";
+	}
+}
