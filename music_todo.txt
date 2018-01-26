@@ -17,4 +17,4 @@ VGPDM16 - Mondo
 VGPDM17 - Bxn
 VGPDM18 - Miles - complete - song by logan
 VGPDM19 - Miles - working on an aliencore style song for this
-VGPDM20 - LadySlash dat space map
+VGPDM20 - LadySlash dat space map (complete - "Orbitus" from "Jazz Jackrabbit" game, hence the map's name)

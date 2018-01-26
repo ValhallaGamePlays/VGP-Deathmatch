@@ -15,3 +15,14 @@ VAD_W
 VAD_T
 VAD_B
 }
+
+//Starsky for VGPDM15 map
+SkyBox VR
+{
+	VR_LF
+	VR_BK
+	VR_RT
+	VR_FT
+	VR_UP
+	VR_DN
+}

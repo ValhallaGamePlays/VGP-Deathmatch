@@ -110,8 +110,22 @@ map vgpdm18 "The Cell"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm01"
+next = "vgpdm20"
 music = "DM_18"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm20 "Orbitus"
+
+{
+sky1 = "VR" , 0
+next = "vgpdm01"
+music = "DM_20"
+UsePlayerStartZ
+Gravity = 400
 lightmode = 2
 fade = a94012
 FogDensity = 16
