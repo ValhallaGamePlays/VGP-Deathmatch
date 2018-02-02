@@ -16,7 +16,7 @@ VAD_T
 VAD_B
 }
 
-//Starsky for VGPDM15 map
+//Starsky for VGPDM20 map
 SkyBox VR
 {
 	VR_LF
@@ -25,4 +25,15 @@ SkyBox VR
 	VR_FT
 	VR_UP
 	VR_DN
+}
+
+//Classic Doom SKYBOX for VGPDM18
+skybox 01
+{
+01_LF
+01_BK
+01_RT
+01_FR
+01_UP
+01_DN
 }

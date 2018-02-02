@@ -5,10 +5,10 @@ strictpatches = 0;
 maps
 {
 	
-	VGPDM19
+	VGPDM18
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "ORG08";
+		defaultfloortexture = "DKTX1209";
 		overrideceilheight = false;
 		
 		resources
@@ -32,26 +32,26 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "TEK1";
+		defaulttoptexture = "DKTX1209";
 		overridemiddletexture = false;
-		viewpositionx = -2892.841f;
-		viewpositiony = -304.0099f;
-		viewscale = 0.1025845f;
+		viewpositionx = 145.478f;
+		viewpositiony = -206.0193f;
+		viewscale = 0.1643954f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
 		
 		grid
 		{
-			backoffsety = 0;
-			backoffsetx = 0;
-			backscalex = 100;
-			gridsize = 256f;
 			background = "";
-			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
 			backscaley = 100;
+			backsource = 0;
+			gridsize = 128f;
 		}
-		defaultceiltexture = "C8PANL02";
+		defaultceiltexture = "F_SKY1";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -60,31 +60,29 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "TEK1";
-		defaultbottomtexture = "TEK1";
+		defaultwalltexture = "DKTX1209";
+		defaultbottomtexture = "DKTX1209";
 		
 		fieldtypes
 		{
 			
 			sidedef
 			{
-				offsetx_top = 1;
-				offsety_top = 1;
 				offsetx_mid = 1;
-				offsety_mid = 1;
 				offsetx_bottom = 1;
 				offsety_bottom = 1;
+				offsety_mid = 1;
 			}
 			
 			sector
 			{
-				xpanningceiling = 1;
-				ypanningceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
 				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
-				xpanningfloor = 1;
-				ypanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
 				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;

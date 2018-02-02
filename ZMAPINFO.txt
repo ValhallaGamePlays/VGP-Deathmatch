@@ -82,7 +82,7 @@ FogDensity = 16
 cluster = 2
 }
 
-map vgpdm12 "untitled"
+map vgpdm12 "Pyramid"
 
 {
 sky1 = "styx" , 0
@@ -109,7 +109,7 @@ cluster = 2
 map vgpdm18 "The Cell"
 
 {
-sky1 = "styx" , 0
+sky1 = "01" , 0
 next = "vgpdm20"
 music = "DM_18"
 lightmode = 2
