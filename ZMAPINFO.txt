@@ -86,7 +86,7 @@ map vgpdm12 "Pyramid"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm17"
+next = "vgpdm14"
 music = "DM_12"
 lightmode = 2
 fade = a94012
@@ -94,6 +94,17 @@ FogDensity = 16
 cluster = 2
 }
 
+map vgpdm14 "Atlantis HQ"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm17"
+music = "DM_12"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
 map vgpdm17 "untitled"
 
 {
