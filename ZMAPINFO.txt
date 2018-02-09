@@ -38,8 +38,20 @@ map vgpdm04 "Station RGR787"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm07"
+next = "vgpdm05"
 music = ""
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm05 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm07"
+music = "DM_05"
 lightmode = 2
 fade = a94012
 FogDensity = 16
@@ -62,8 +74,20 @@ map vgpdm08 "Untitled"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm11"
+next = "vgpdm09"
 music = "DM_08"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm09 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm11"
+music = "DM_09"
 lightmode = 2
 fade = a94012
 FogDensity = 16
@@ -86,8 +110,56 @@ map vgpdm12 "Pyramid"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm17"
+next = "vgpdm13"
 music = "DM_12"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm13 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm14"
+music = "DM_13"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm14 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm15"
+music = "DM_14"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm15 "Resource Surveilance"
+
+{
+sky1 "SKY2NIE" , 0
+next "vgpdm16"
+music "DM_NIN1"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm16 "Untitled"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm17"
+music = "DM_16"
 lightmode = 2
 fade = a94012
 FogDensity = 16
@@ -110,8 +182,20 @@ map vgpdm18 "The Cell"
 
 {
 sky1 = "01" , 0
-next = "vgpdm20"
+next = "vgpdm19"
 music = "DM_18"
+lightmode = 2
+fade = a94012
+FogDensity = 16
+cluster = 2
+}
+
+map vgpdm19 "Krys"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm20"
+music = "DM_19"
 lightmode = 2
 fade = a94012
 FogDensity = 16

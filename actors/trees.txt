@@ -1,0 +1,77 @@
+ACTOR Tree1 20555
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TR1E A -1
+		Stop
+	}
+}
+
+ACTOR Tree2 20556
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TR2E A -1
+		Stop
+	}
+}
+
+ACTOR Tree3 20557
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE3 A -1
+		Stop
+	}
+}
+
+ACTOR Tree4	20558
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE4 A -1
+		Stop
+	}
+}
+
+ACTOR Tree5 20559
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE5 A -1
+		Stop
+	}
+}
+
+ACTOR Tree6 21560
+{
+	Radius 10
+	Height 150
+	+SOLID
+	States
+	{
+	Spawn:
+		TRE6 A -1
+		Stop
+	}
+}

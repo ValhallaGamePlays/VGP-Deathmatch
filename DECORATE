@@ -1,1 +1,4 @@
 //Decorate//
+#include actors/streetlamp.txt
+#include actors/trees.txt
+#include actors/gore.txt

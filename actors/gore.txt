@@ -1,0 +1,169 @@
+ACTOR Bone1 7575
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    BONE A -1
+    Stop
+  }
+}
+
+ACTOR Bone2 7576
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    BONE B -1
+    Stop
+  }
+}
+
+ACTOR BrainMush 7577
+{
+  Game Doom
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    MUSH A -1
+    Stop
+  }
+}
+
+ACTOR GoreChunk1 7578
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    CHNK A -1
+    Stop
+  }
+}
+
+ACTOR GoreChunk2 7579
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    CHNK B -1
+    Stop
+  }
+}
+
+ACTOR GoreChunk3 7580
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    CHNK C -1
+    Stop
+  }
+}
+
+ACTOR EyeBall 7581
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    EYEB A -1
+    Stop
+  }
+}
+
+ACTOR Organ1 7582
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    ORGN A -1
+    Stop
+  }
+}
+
+ACTOR Organ2 7583
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    ORGN B -1
+    Stop
+  }
+}
+
+ACTOR RibCage 7584
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    RIBC A -1
+    Stop
+  }
+}
+
+ACTOR SpinalCord 7585
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    SPIN A -1
+    Stop
+  }
+}
+
+ACTOR Organs 7586
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    ORGS A -1
+    Stop
+  }
+}
+
+ACTOR Torso 7587
+{
+  Radius 16
+  Height 56
+  -SOLID
+  States
+  {
+  Spawn:
+    TRSO A -1
+    Stop
+  }
+}

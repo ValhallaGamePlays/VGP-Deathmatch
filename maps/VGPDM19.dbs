@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "TEK1";
 		overridemiddletexture = false;
-		viewpositionx = -2892.841f;
-		viewpositiony = -304.0099f;
-		viewscale = 0.1025845f;
+		viewpositionx = 773.4086f;
+		viewpositiony = 346.3914f;
+		viewscale = 0.1733668f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -46,7 +46,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 256f;
+			gridsize = 128f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;

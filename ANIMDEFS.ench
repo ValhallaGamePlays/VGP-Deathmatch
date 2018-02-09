@@ -1,2 +1,54 @@
 warp texture SLUDGE_1
 warp texture SLUDGE_4
+
+texture WFALL1
+pic WFALL1 tics 3
+pic WFALL2 tics 3
+pic WFALL3 tics 3
+pic WFALL4 tics 3
+
+texture H_WALL01
+pic H_WALL01 tics 300
+pic H_WALL02 tics 3
+pic H_WALL03 tics 3
+pic H_WALL03 tics 70
+pic H_WALL02 tics 3
+
+texture H_GATE01
+pic H_GATE01 tics 35
+pic H_GATE02 tics 35
+pic H_GATE03 tics 35
+pic H_GATE04 tics 35
+pic H_GATE03 tics 35
+pic H_GATE02 tics 35
+pic H_GATE01 tics 35
+
+texture H_WALL21
+pic H_WALL21 tics 3
+pic H_WALL22 tics 3
+pic H_WALL23 tics 3
+pic H_WALL24 tics 3
+pic H_WALL25 tics 3
+pic H_WALL26 tics 3
+pic H_WALL27 tics 3
+pic H_WALL28 tics 3
+pic H_WALL29 tics 3
+pic H_WALL30 tics 3
+pic H_WALL31 tics 3
+pic H_WALL32 tics 3
+
+warp texture SPCEGATE
+
+texture S_WALL21
+pic S_WALL21 tics 3
+pic S_WALL22 tics 3
+pic S_WALL23 tics 3
+pic S_WALL24 tics 3
+pic S_WALL25 tics 3
+pic S_WALL26 tics 3
+pic S_WALL27 tics 3
+pic S_WALL28 tics 3
+pic S_WALL29 tics 3
+pic S_WALL30 tics 3
+pic S_WALL31 tics 3
+pic S_WALL32 tics 3
