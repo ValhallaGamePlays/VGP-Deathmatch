@@ -121,9 +121,9 @@ cluster = 2
 map vgpdm15 "Resource Surveilance"
 
 {
-sky1 "SKY2NIE" , 0
-next "vgpdm16"
-music "DM_NIN1"
+sky1 = "SKY2NIE" , 0
+next = "vgpdm16"
+music = "DM_NIN1"
 fade = a94012
 cluster = 2
 }
@@ -179,3 +179,4 @@ Gravity = 400
 fade = a94012
 cluster = 2
 }
+
