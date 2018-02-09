@@ -43,44 +43,9 @@ maps
 		}
 		defaulttoptexture = "OLTX0758";
 		overridemiddletexture = false;
-		
-		fieldtypes
-		{
-			
-			sector
-			{
-				ypanningfloor = 1;
-				yscaleceiling = 1;
-				yscalefloor = 1;
-				ypanningceiling = 1;
-				rotationceiling = 1;
-				gravity = 1;
-				xpanningfloor = 1;
-				xscalefloor = 1;
-				xpanningceiling = 1;
-				rotationfloor = 1;
-				xscaleceiling = 1;
-			}
-			
-			sidedef
-			{
-				scalex_top = 1;
-				scaley_top = 1;
-				offsetx_bottom = 1;
-				offsetx_top = 1;
-				scalex_bottom = 1;
-				offsety_mid = 1;
-				scaley_bottom = 1;
-				offsety_top = 1;
-				offsety_bottom = 1;
-				offsetx_mid = 1;
-				scalex_mid = 1;
-				scaley_mid = 1;
-			}
-		}
-		viewpositionx = -169.0499f;
-		viewpositiony = 1458.523f;
-		viewscale = 2.449275f;
+		viewpositionx = 1691.98f;
+		viewpositiony = -1367.939f;
+		viewscale = 0.3002554f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -106,5 +71,40 @@ maps
 		overrideceiltexture = false;
 		defaultwalltexture = "OLTX0758";
 		defaultbottomtexture = "OLTX0758";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				scalex_top = 1;
+				scaley_top = 1;
+				offsetx_bottom = 1;
+				scalex_mid = 1;
+				scaley_mid = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+				scalex_bottom = 1;
+				scaley_bottom = 1;
+				offsetx_top = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				gravity = 1;
+				rotationceiling = 1;
+				rotationfloor = 1;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				xscalefloor = 1;
+				ypanningceiling = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+			}
+		}
 	}
 }
