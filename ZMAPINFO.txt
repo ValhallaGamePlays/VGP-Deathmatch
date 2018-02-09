@@ -118,7 +118,7 @@ FogDensity = 16
 cluster = 2
 }
 
-map vgpdm13 "Untitled"
+map vgpdm13 "BLUE DEMO"
 
 {
 sky1 = "styx" , 0
