@@ -37,3 +37,12 @@ skybox 01
 01_UP
 01_DN
 }
+
+//From KMFDM
+Glow
+{
+	Flats
+		{
+		    F_SKY1
+		}
+}

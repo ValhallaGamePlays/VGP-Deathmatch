@@ -1,0 +1,12 @@
+ACTOR StreetLamp 11136
+{
+	Radius 10
+	Height 250
+	+SOLID
+	States
+	{
+	Spawn:
+		LAMP A -1
+		Stop
+	}
+}

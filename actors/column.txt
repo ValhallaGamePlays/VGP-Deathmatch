@@ -1,0 +1,12 @@
+Actor FlutedTanColumn 7588
+{
+	Radius 16
+	Height 128
+	+SOLID
+	States
+	{
+	Spawn:
+		COL0 J -1
+		Stop
+	}
+}
