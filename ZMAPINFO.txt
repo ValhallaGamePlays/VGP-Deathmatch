@@ -46,10 +46,10 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm05 "Untitled"
+map vgpdm05 "East Testing Center"
 
 {
-sky1 = "styx" , 0
+sky1 = "OLTX0328" , 0
 next = "vgpdm07"
 music = "DM_05"
 FogDensity = 4
