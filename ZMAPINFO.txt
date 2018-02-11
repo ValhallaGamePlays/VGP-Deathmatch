@@ -4,6 +4,8 @@ map vgpdm01 "Gothic ESND"
 sky1 = "styx" , 0
 next = "vgpdm02"
 music = "DM_01"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -14,6 +16,8 @@ map vgpdm02 "Lava Hall"
 sky1 = "styx" , 0
 next = "vgpdm03"
 music = "DM_02"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -24,6 +28,8 @@ map vgpdm03 "Bitterman's Revenge"
 sky1 = "SKY1" , 0
 next = "vgpdm04"
 music = "DM_NIN"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -34,6 +40,8 @@ map vgpdm04 "Station RGR787"
 sky1 = "styx" , 0
 next = "vgpdm04"
 music = "DM_04"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -44,6 +52,8 @@ map vgpdm05 "Untitled"
 sky1 = "styx" , 0
 next = "vgpdm07"
 music = "DM_05"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -54,6 +64,8 @@ map vgpdm07 "Deimos Training Center"
 sky1 = "styx" , 0
 next = "vgpdm08"
 music = "DM_07"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -64,6 +76,8 @@ map vgpdm08 "Untitled"
 sky1 = "styx" , 0
 next = "vgpdm09"
 music = "DM_08"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -74,6 +88,8 @@ map vgpdm09 "Untitled"
 sky1 = "styx" , 0
 next = "vgpdm11"
 music = "DM_09"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -84,6 +100,8 @@ map vgpdm11 "SEWERDM"
 sky1 = "styx" , 0
 next = "vgpdm12"
 music = "DM_11"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -92,18 +110,10 @@ map vgpdm12 "Pyramid"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm13"
-music = "DM_12"
-fade = a94012
-cluster = 2
-}
-
-map vgpdm13 "BLUE DEMO"
-
-{
-sky1 = "styx" , 0
 next = "vgpdm14"
-music = "DM_13"
+music = "DM_12"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -114,6 +124,8 @@ map vgpdm14 "Untitled"
 sky1 = "styx" , 0
 next = "vgpdm15"
 music = "DM_14"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -124,6 +136,8 @@ map vgpdm15 "Resource Surveilance"
 sky1 = "SKY2NIE" , 0
 next = "vgpdm16"
 music = "DM_DEF3"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -134,6 +148,8 @@ map vgpdm16 "Untitled"
 sky1 = "styx" , 0
 next = "vgpdm17"
 music = "DM_11"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -144,6 +160,8 @@ map vgpdm17 "untitled"
 sky1 = "styx" , 0
 next = "vgpdm18"
 music = "DM_17"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -154,6 +172,8 @@ map vgpdm18 "The Cell"
 sky1 = "01" , 0
 next = "vgpdm19"
 music = "DM_18"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -164,6 +184,8 @@ map vgpdm19 "Krys"
 sky1 = "styx" , 0
 next = "vgpdm20"
 music = "DM_19"
+FogDensity = 4
+lightmode = 2
 fade = a94012
 cluster = 2
 }
@@ -174,6 +196,8 @@ map vgpdm20 "Orbitus"
 sky1 = "VR" , 0
 next = "vgpdm01"
 music = "DM_20"
+FogDensity = 4
+lightmode = 2
 UsePlayerStartZ
 Gravity = 400
 fade = a94012
