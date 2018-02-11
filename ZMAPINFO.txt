@@ -143,7 +143,7 @@ map vgpdm17 "untitled"
 {
 sky1 = "styx" , 0
 next = "vgpdm18"
-music = "DM_02"
+music = "DM_17"
 fade = a94012
 cluster = 2
 }
