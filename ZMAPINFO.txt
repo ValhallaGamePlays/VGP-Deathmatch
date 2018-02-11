@@ -50,8 +50,20 @@ map vgpdm05 "East Testing Center"
 
 {
 sky1 = "OLTX0328" , 0
-next = "vgpdm07"
+next = "vgpdm06"
 music = "DM_05"
+FogDensity = 4
+lightmode = 2
+fade = a94012
+cluster = 2
+}
+
+map vgpdm06 "Longest Ver. 1"
+
+{
+sky1 = "OLTX0328" , 0
+next = "vgpdm07"
+music = "DM_06"
 FogDensity = 4
 lightmode = 2
 fade = a94012
@@ -70,10 +82,10 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm08 "Untitled"
+map vgpdm08 "Wild GunZ"
 
 {
-sky1 = "styx" , 0
+sky1 = "OLTX0012" , 0
 next = "vgpdm09"
 music = "DM_08"
 FogDensity = 4
@@ -82,7 +94,7 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm09 "Untitled"
+map vgpdm09 "Begonezo"
 
 {
 sky1 = "styx" , 0
@@ -110,7 +122,7 @@ map vgpdm12 "Pyramid"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm14"
+next = "vgpdm13"
 music = "DM_12"
 FogDensity = 4
 lightmode = 2
@@ -118,7 +130,19 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm14 "Untitled"
+map vgpdm13 "Glass Coffin"
+
+{
+sky1 = "OLTX0328" , 0
+next = "vgpdm14"
+music = "DM_13"
+FogDensity = 4
+lightmode = 2
+fade = a94012
+cluster = 2
+}
+
+map vgpdm14 "Working Title"
 
 {
 sky1 = "styx" , 0
@@ -142,19 +166,19 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm16 "Untitled"
+map vgpdm16 "Unholy Outpost"
 
 {
 sky1 = "styx" , 0
 next = "vgpdm17"
-music = "DM_11"
+music = "DM_16"
 FogDensity = 4
 lightmode = 2
 fade = a94012
 cluster = 2
 }
 
-map vgpdm17 "untitled"
+map vgpdm17 "Circus Porn"
 
 {
 sky1 = "styx" , 0
