@@ -32,8 +32,8 @@ map vgpdm04 "Station RGR787"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm05"
-music = ""
+next = "vgpdm04"
+music = "DM_04"
 fade = a94012
 cluster = 2
 }
@@ -123,7 +123,7 @@ map vgpdm15 "Resource Surveilance"
 {
 sky1 = "SKY2NIE" , 0
 next = "vgpdm16"
-music = "DM_NIN1"
+music = "DM_NIN"
 fade = a94012
 cluster = 2
 }
@@ -133,7 +133,7 @@ map vgpdm16 "Untitled"
 {
 sky1 = "styx" , 0
 next = "vgpdm17"
-music = "DM_16"
+music = "DM_11"
 fade = a94012
 cluster = 2
 }
@@ -143,7 +143,7 @@ map vgpdm17 "untitled"
 {
 sky1 = "styx" , 0
 next = "vgpdm18"
-music = "DM_17"
+music = "DM_02"
 fade = a94012
 cluster = 2
 }
