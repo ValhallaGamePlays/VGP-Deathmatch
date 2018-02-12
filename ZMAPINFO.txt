@@ -145,12 +145,8 @@ cluster = 2
 map vgpdm13 "Glass Coffin"
 
 {
-sky1 = "OLTX0328" , 0
 next = "vgpdm14"
 music = "DM_13"
-FogDensity = 4
-lightmode = 2
-fade = a94012
 cluster = 2
 }
 
