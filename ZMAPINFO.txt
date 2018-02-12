@@ -94,12 +94,24 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm09 "Begonezo"
+map vgpdm09 "Command Outpost"
+
+{
+sky1 = "styx" , 0
+next = "vgpdm10"
+music = "DM_09"
+FogDensity = 4
+lightmode = 2
+fade = a94012
+cluster = 2
+}
+
+map vgpdm10 "Choco Taco"
 
 {
 sky1 = "styx" , 0
 next = "vgpdm11"
-music = "DM_09"
+music = "DM_10"
 FogDensity = 4
 lightmode = 2
 fade = a94012
@@ -166,7 +178,7 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm16 "Unholy Outpost"
+map vgpdm16 "Flasback '95"
 
 {
 sky1 = "styx" , 0
@@ -178,7 +190,7 @@ fade = a94012
 cluster = 2
 }
 
-map vgpdm17 "Circus Porn"
+map vgpdm17 "Hidden Mountain Base"
 
 {
 sky1 = "styx" , 0
