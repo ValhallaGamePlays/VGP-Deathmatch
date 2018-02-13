@@ -1,0 +1,110 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM04
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLAT3";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "GRAY1";
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
+		}
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				damagetype = 2;
+				ypanningceiling = 1;
+				lightceiling = 0;
+				rotationceiling = 1;
+				damageamount = 0;
+				xpanningfloor = 1;
+				lightfloor = 0;
+				xscalefloor = 1;
+				rotationfloor = 1;
+				xscaleceiling = 1;
+				lightfloorabsolute = 3;
+			}
+			
+			linedef
+			{
+				alpha = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				offsety_mid = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+				scaley_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = 364.3131f;
+		viewpositiony = 945.372f;
+		viewscale = 0.2557323f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 256f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "FLAT19";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "GRAY1";
+		defaultbottomtexture = "GRAY1";
+	}
+}
