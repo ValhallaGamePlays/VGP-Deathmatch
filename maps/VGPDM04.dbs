@@ -1,0 +1,139 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM04
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLAT3";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "B:\\Games\\Doom\\Wads\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "GRAY1";
+		
+		scriptdocuments
+		{
+			
+			document2
+			{
+				filename = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch\\ZMAPINFO.txt";
+				hash = 1286694845;
+				resource = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch";
+				tabtype = 1;
+				scripttype = 6;
+				caretposition = 575;
+				firstvisibleline = 10;
+				activetab = true;
+			}
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+			}
+		}
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				damagetype = 2;
+				ypanningceiling = 1;
+				lightceiling = 0;
+				rotationceiling = 1;
+				damageamount = 0;
+				xpanningfloor = 1;
+				lightfloor = 0;
+				xscalefloor = 1;
+				rotationfloor = 17;
+				xscaleceiling = 1;
+				lightfloorabsolute = 3;
+			}
+			
+			linedef
+			{
+				alpha = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				offsety_mid = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+				scaley_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = 1656.098f;
+		viewpositiony = 3121.476f;
+		viewscale = 0.6676511f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 8f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "FLAT19";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "GRAY1";
+		defaultbottomtexture = "GRAY1";
+	}
+}
