@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "GRAY5";
 		overridemiddletexture = false;
-		viewpositionx = 690.4498f;
-		viewpositiony = 461.7566f;
-		viewscale = 0.1209213f;
+		viewpositionx = 3139.28f;
+		viewpositiony = 936.3311f;
+		viewscale = 0.9863868f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -51,7 +51,7 @@ maps
 			backsource = 0;
 			backscaley = 100;
 		}
-		defaultceiltexture = "F_SKY1";
+		defaultceiltexture = "GRAY5";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -75,25 +75,26 @@ maps
 			{
 				offsetx_mid = 1;
 				offsety_mid = 1;
+				offsety_bottom = 1;
 				offsetx_top = 1;
 				offsety_top = 1;
-				offsety_bottom = 1;
 				offsetx_bottom = 1;
 			}
 			
 			sector
 			{
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationceiling = 1;
+				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
 				lightceiling = 0;
+				floor_reflect = 1;
 			}
 		}
 	}

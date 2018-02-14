@@ -147,6 +147,7 @@ map vgpdm13 "Glass Coffin"
 {
 next = "vgpdm14"
 music = "DM_13"
+next = "vgpdm14"
 cluster = 2
 }
 
@@ -167,7 +168,7 @@ map vgpdm15 "Resource Surveilance"
 {
 sky1 = "SKY2NIE" , 0
 next = "vgpdm16"
-music = "DM_DEF3"
+music = "DM_15"
 FogDensity = 4
 lightmode = 2
 fade = a94012
