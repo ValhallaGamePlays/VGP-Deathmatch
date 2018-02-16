@@ -46,3 +46,14 @@ Glow
 		    F_SKY1
 		}
 }
+
+//Tormentor667 Night Skybox
+skybox nightsky
+{
+FOG1_N
+FOG1_E
+FOG1_S
+FOG1_W
+FOG1_T
+FOG1_B
+}
