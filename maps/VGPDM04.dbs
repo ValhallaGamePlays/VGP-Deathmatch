@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "GRAY1";
 		overridemiddletexture = false;
-		viewpositionx = 1457.361f;
-		viewpositiony = 828.0874f;
-		viewscale = 0.4321865f;
+		viewpositionx = 749.729f;
+		viewpositiony = 1474.62f;
+		viewscale = 1.604677f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -122,6 +122,17 @@ maps
 				tabtype = 0;
 				scripttype = 1;
 				caretposition = 130;
+			}
+			
+			document2
+			{
+				filename = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch\\ZMAPINFO.txt";
+				hash = 1286694845;
+				resource = "C:\\Users\\M\\Documents\\git\\VGP-Deathmatch";
+				tabtype = 1;
+				scripttype = 6;
+				caretposition = 2193;
+				firstvisibleline = 148;
 				activetab = true;
 			}
 		}

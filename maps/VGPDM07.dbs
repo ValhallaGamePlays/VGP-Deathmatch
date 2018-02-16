@@ -5,10 +5,10 @@ strictpatches = 0;
 maps
 {
 	
-	VGPDM13
+	VGPDM07
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "GRAY5";
+		defaultfloortexture = "STONE2";
 		overrideceilheight = false;
 		
 		resources
@@ -32,11 +32,40 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "GRAY5";
+		defaulttoptexture = "STONE2";
 		overridemiddletexture = false;
-		viewpositionx = 3580.525f;
-		viewpositiony = 1260.355f;
-		viewscale = 0.345361f;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				rotationfloor = 1;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				yscalefloor = 1;
+				lightcolor = 0;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = -28.2854f;
+		viewpositiony = 746.474f;
+		viewscale = 0.190736f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -51,7 +80,7 @@ maps
 			backsource = 0;
 			backscaley = 100;
 		}
-		defaultceiltexture = "GRAY5";
+		defaultceiltexture = "STONE2";
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
@@ -60,44 +89,7 @@ maps
 		overridetoptexture = false;
 		custombrightness = 196;
 		overrideceiltexture = false;
-		defaultwalltexture = "GRAY5";
-		defaultbottomtexture = "GRAY5";
-		
-		fieldtypes
-		{
-			
-			linedef
-			{
-				alpha = 1;
-			}
-			
-			sidedef
-			{
-				offsetx_mid = 1;
-				offsety_mid = 1;
-				offsety_bottom = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
-				offsetx_bottom = 1;
-				scalex_bottom = 1;
-				scaley_bottom = 1;
-			}
-			
-			sector
-			{
-				rotationfloor = 1;
-				xscalefloor = 1;
-				yscalefloor = 1;
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				rotationceiling = 1;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				lightceiling = 0;
-				floor_reflect = 1;
-			}
-		}
+		defaultwalltexture = "STONE2";
+		defaultbottomtexture = "STONE2";
 	}
 }

@@ -124,9 +124,9 @@ map vgpdm11 "SEWERDM"
 sky1 = "styx" , 0
 next = "vgpdm12"
 music = "DM_11"
-FogDensity = 4
+FogDensity = 8
 lightmode = 2
-fade = a94012
+fade = 296D34
 cluster = 2
 }
 
@@ -151,7 +151,7 @@ next = "vgpdm14"
 cluster = 2
 }
 
-map vgpdm14 "Working Title"
+map vgpdm14 "Gates of Atlantis"
 
 {
 sky1 = "styx" , 0
@@ -168,14 +168,14 @@ map vgpdm15 "Resource Surveilance"
 {
 sky1 = "SKY2NIE" , 0
 next = "vgpdm16"
-music = "DM_15"
+music = "DM_HAB"
 FogDensity = 4
 lightmode = 2
 fade = a94012
 cluster = 2
 }
 
-map vgpdm16 "Flasback '95"
+map vgpdm16 "12 Bore Hell"
 
 {
 sky1 = "styx" , 0
