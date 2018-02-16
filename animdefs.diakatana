@@ -1,56 +1,56 @@
 texture ARC_1 range ARC_4 rand 2 3 //arcing electricity
 
-texture BCAM_1 range BCAM_2 rand 40 70 //blue security camera
+//texture BCAM_1 range BCAM_2 rand 40 70 //blue security camera
 
-texture SECU_01 range SECU_10 tics 4 //security camera
+//texture SECU_01 range SECU_10 tics 4 //security camera
 
-texture BSTAT_1 range BSTAT_3 tics 1 //blue static
+//texture BSTAT_1 range BSTAT_3 tics 1 //blue static
 
-texture RSTAT_1 range RSTAT_3 tics 1 //red static :o
+//texture RSTAT_1 range RSTAT_3 tics 1 //red static :o
 
-texture BLITE_1 range BLITE_5 tics 4 oscillate //blue light
+//texture BLITE_1 range BLITE_5 tics 4 oscillate //blue light
 
-texture RLITE_1 range RLITE_5 tics 4 oscillate //red light
+//texture RLITE_1 range RLITE_5 tics 4 oscillate //red light
 
-texture LSEQ_1 range LSEQ_3 tics 5 //sequence of lights
+//texture LSEQ_1 range LSEQ_3 tics 5 //sequence of lights
 
-texture LTR_1_1 range LTR_1_4 tics 3 //left-to-right lights
+//texture LTR_1_1 range LTR_1_4 tics 3 //left-to-right lights
 
-texture LTR_2_1 range LTR_2_4 tics 3
+//texture LTR_2_1 range LTR_2_4 tics 3
 
-texture LTR_3_1 range LTR_3_4 tics 3
+//texture LTR_3_1 range LTR_3_4 tics 3
 
 //texture SPINNY_1 range SPINNY4 tics 4 //wheeeeeeeeeeeeeee
 
-texture POWER_1 range POWER_8 tics 2 //power coils or something
+//texture POWER_1 range POWER_8 tics 2 //power coils or something
 
 //texture SPACE_1 range SPACE2 tics 6 //in space, nobody can hear Daikatana sucking
 
-texture SCN_1_01 range SCN_1_10 tics 3 //bio scanner
+//texture SCN_1_01 range SCN_1_10 tics 3 //bio scanner
 
-texture CMP_1_1 range CMP_1_5 tics 3 //scrolling computer
+//texture CMP_1_1 range CMP_1_5 tics 3 //scrolling computer
 
-texture CMP_2_1 range CMP_2_5 tics 5 //bio scan something something
+//texture CMP_2_1 range CMP_2_5 tics 5 //bio scan something something
 
-texture CMP_3_1 range CMP_3_3 tics 2 //circles or something
+//texture CMP_3_1 range CMP_3_3 tics 2 //circles or something
 
-texture CMP_4_1 range CMP_4_3 tics 4 //tractor beams are nice
+//texture CMP_4_1 range CMP_4_3 tics 4 //tractor beams are nice
 
-texture CMP_5_1 range CMP_5_3 tics 3 //scan some shit yo
+//texture CMP_5_1 range CMP_5_3 tics 3 //scan some shit yo
 
 //texture CMP_6_1 range CMP_6_5 tics 5 //LET'S SCAN THE COSMOS
 
-texture CMP_7_1 range CMP_7_5 tics 3 //idk
+//texture CMP_7_1 range CMP_7_5 tics 3 //idk
 
-texture CMP_8_1 range CMP_8_4 tics 6 //last one yay
+//texture CMP_8_1 range CMP_8_4 tics 6 //last one yay
 
-texture FAN_1_1 range FAN_1_3 tics 3 //a fan
+//texture FAN_1_1 range FAN_1_3 tics 3 //a fan
 
-texture DESKTOP1 range DESKTOP2 rand 7 20 //desktop computer tower
+//texture DESKTOP1 range DESKTOP2 rand 7 20 //desktop computer tower
 
-texture LAVA_1_1 range LAVA_1_3 tics 5 //pouring lava
+//texture LAVA_1_1 range LAVA_1_3 tics 5 //pouring lava
 
-texture LAVA_2_1 range LAVA_2_3 tics 5 //lava in cracks
+//texture LAVA_2_1 range LAVA_2_3 tics 5 //lava in cracks
 
 /*
 So I'm pretty sure there's a bunch of duplicates I didn't delete because there seem to be multiple copies of
