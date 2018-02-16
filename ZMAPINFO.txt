@@ -27,7 +27,7 @@ map vgpdm03 "Bitterman's Revenge"
 {
 sky1 = "SKY1" , 0
 next = "vgpdm04"
-music = "DM_NIN"
+music = "DM_HAB"
 FogDensity = 4
 lightmode = 2
 fade = a94012
@@ -38,7 +38,7 @@ map vgpdm04 "Station RGR787"
 
 {
 sky1 = "styx" , 0
-next = "vgpdm04"
+next = "vgpdm05"
 music = "DM_04"
 FogDensity = 4
 lightmode = 2
