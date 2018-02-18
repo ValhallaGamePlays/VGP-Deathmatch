@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "DKTX0638";
 		overridemiddletexture = false;
-		viewpositionx = -1632f;
-		viewpositiony = -176.32f;
-		viewscale = 1.922727f;
+		viewpositionx = 1168.21f;
+		viewpositiony = 51.45942f;
+		viewscale = 1.47902f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -80,12 +80,12 @@ maps
 			{
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 1;
+				rotationceiling = 17;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
 			}
