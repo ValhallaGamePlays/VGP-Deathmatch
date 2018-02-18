@@ -63,8 +63,8 @@ map vgpdm06 "Longest Ver. 1"
 {
 sky1 = "OLTX0328" , 0
 next = "vgpdm07"
-music = "DM_14"
-lightmode = 2
+music = "DM_06"
+lightmode = 0
 cluster = 2
 }
 

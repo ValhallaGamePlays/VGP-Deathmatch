@@ -14,7 +14,7 @@ texture ARC_1 range ARC_4 rand 2 3 //arcing electricity
 
 //texture LSEQ_1 range LSEQ_3 tics 5 //sequence of lights
 
-//texture LTR_1_1 range LTR_1_4 tics 3 //left-to-right lights
+texture LTR_1_1 range LTR_1_4 tics 3 //left-to-right lights
 
 //texture LTR_2_1 range LTR_2_4 tics 3
 
