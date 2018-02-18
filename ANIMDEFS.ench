@@ -22,7 +22,7 @@ pic H_GATE04 tics 35
 pic H_GATE03 tics 35
 pic H_GATE02 tics 35
 pic H_GATE01 tics 35
-/*
+
 texture H_WALL21
 pic H_WALL21 tics 3
 pic H_WALL22 tics 3
@@ -36,6 +36,7 @@ pic H_WALL29 tics 3
 pic H_WALL30 tics 3
 pic H_WALL31 tics 3
 pic H_WALL32 tics 3
+
 
 warp texture SPCEGATE
 
@@ -52,3 +53,4 @@ pic S_WALL29 tics 3
 pic S_WALL30 tics 3
 pic S_WALL31 tics 3
 pic S_WALL32 tics 3
+*/
