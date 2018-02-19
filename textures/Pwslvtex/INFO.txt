@@ -1,6 +1,0 @@
-Source: Powerslave/Exhumed
-Count: 500
-Palette: Custom
-Format: TEXTURE1/TX_markers
-Anims/Switches: ZDoom compatible
-Description: All the textures from the Build game Powerslave

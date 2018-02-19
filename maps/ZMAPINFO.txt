@@ -28,21 +28,18 @@ map vgpdm03 "Bitterman's Revenge"
 sky1 = "SKY1" , 0
 next = "vgpdm04"
 music = "DM_HAB"
-FogDensity = 4
-lightmode = 2
-fade = a94012
 cluster = 2
 }
 
-map vgpdm04 "Red Plantet's Dirge"
+map vgpdm04 "Red Planet's Dirge"
 
 {
 sky1 = "styx" , 0
 next = "vgpdm05"
 music = "DM_04"
-OutsideFogDensity = 5
-lightmode = 0
-OutsideFog = a94012
+FogDensity = 4
+lightmode = 2
+fade = a94012
 cluster = 2
 }
 
@@ -52,7 +49,7 @@ map vgpdm05 "East Testing Center"
 sky1 = "OLTX0328" , 0
 next = "vgpdm06"
 music = "DM_05"
-FogDensity = 2
+FogDensity = 3
 lightmode = 2
 fade = a94012
 cluster = 2
@@ -61,10 +58,12 @@ cluster = 2
 map vgpdm06 "Longest Ver. 1"
 
 {
-sky1 = "NEWMOON" , 0
+sky1 = "OLTX0328" , 0
 next = "vgpdm07"
-music = "DM_06"
-lightmode = 0
+music = "DM_14"
+FogDensity = 4
+lightmode = 2
+fade = a94012
 cluster = 2
 }
 
@@ -86,9 +85,9 @@ map vgpdm08 "Wild GunZ"
 sky1 = "OLTX0012" , 0
 next = "vgpdm09"
 music = "DM_08"
-OutsideFogDensity = 12
+FogDensity = 4
 lightmode = 2
-OutsideFog = 8C6D24
+fade = a94012
 cluster = 2
 }
 
@@ -131,14 +130,12 @@ cluster = 2
 map vgpdm12 "Pyramid"
 
 {
-sky1 = "PW_SKY01" , 0
+sky1 = "styx" , 0
 next = "vgpdm13"
 music = "DM_12"
-OutsideFog = 2c7ac4
-OutsideFogDensity = 10
+FogDensity = 4
 lightmode = 2
-Gravity = 750
-AirControl = 0.008
+fade = a94012
 cluster = 2
 }
 
@@ -147,6 +144,7 @@ map vgpdm13 "Glass Coffin"
 {
 next = "vgpdm14"
 music = "DM_13"
+next = "vgpdm14"
 cluster = 2
 }
 
@@ -169,8 +167,6 @@ sky1 = "nightsky" , 0
 next = "vgpdm16"
 music = "DM_PIT"
 FogDensity = 4
-lightmode = 2
-fade = a94012
 cluster = 2
 }
 
@@ -192,7 +188,7 @@ map vgpdm17 "Hidden Mountain Base"
 sky1 = "styx" , 0
 next = "vgpdm18"
 music = "DM_17"
-FogDensity = 2
+FogDensity = 4
 lightmode = 2
 fade = a94012
 cluster = 2
@@ -228,9 +224,11 @@ map vgpdm20 "Orbitus"
 sky1 = "VR" , 0
 next = "vgpdm01"
 music = "DM_20"
+FogDensity = 4
 lightmode = 2
 UsePlayerStartZ
 Gravity = 400
+fade = a94012
 cluster = 2
 }
 
