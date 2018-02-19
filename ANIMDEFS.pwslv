@@ -3,7 +3,7 @@ texture WTR_1_1 range WTR_1_8 tics 4 //still water
 texture WTR_2_1 range WTR_2_3 tics 4 //smaller still water
 
 texture WTR_3_1 range WTR_3_3 tics 4 //flowing water
-
+/*
 texture LAV_1_1 range LAV_1_4 tics 6 //small bubbling lava
 
 texture LAV_2_1 range LAV_2_3 tics 3 //lava falls
@@ -65,7 +65,7 @@ texture RNE_10_1 range RNE_10_4 tics 10 oscillate
 texture RNE_11_1 range RNE_11_4 tics 10 oscillate
 
 texture RNE_12_1 range RNE_12_4 tics 10 oscillate
-
+*/
 /*
 A lot of the textures will require mirroring in
 TEXTURES, or however you prefer to do it. (If you
