@@ -28,13 +28,13 @@ texture LTR_1_1 range LTR_1_4 tics 3 //left-to-right lights
 
 //texture SCN_1_01 range SCN_1_10 tics 3 //bio scanner
 
-texture CMP_1_1 range CMP_1_5 tics 3 //scrolling computer
+//texture CMP_1_1 range CMP_1_5 tics 3 //scrolling computer
 
-texture CMP_2_1 range CMP_2_5 tics 5 //bio scan something something
+//texture CMP_2_1 range CMP_2_5 tics 5 //bio scan something something
 
 //texture CMP_3_1 range CMP_3_3 tics 2 //circles or something
 
-texture CMP_4_1 range CMP_4_3 tics 4 //tractor beams are nice
+//texture CMP_4_1 range CMP_4_3 tics 4 //tractor beams are nice
 
 //texture CMP_5_1 range CMP_5_3 tics 3 //scan some shit yo
 
