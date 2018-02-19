@@ -29,7 +29,8 @@ valhallagameplays.info
     Filename                : vgpdm-betaV1.pk3
     Completion date         : 2/11/18
     Author(s)               : The Valhalla Game Plays Dev Team
-                              -->=M= - VGPDM04, VGPDM13, Music Production, Debugging
+                              -->=M= - VGPDM04, VGPDM13, VGPDM12 Overhaul, 
+							     Music Production, Debugging
                               -->Mondobizarrro - VGPDM09, VGPDM16
 							  -->Atronix - VGPDM09, VGPDM16
                               -->Dantos the Mutilator - VGPDM02, VGPDM05, 
@@ -42,7 +43,7 @@ valhallagameplays.info
                               -->Miles Lowroad - VGPDM01, VGPDM06, VGPDM18, 
                                  VGPDM19, Project Management and Debugging
                               -->Enchanter - VGPDM03, VGPDM15
-							  -->Juno - VGPDM12
+							  -->Juno - VGPDM12 Concept
     Email Address           : akthunderfolk@gmail.com
     Other Files By Author   : vgpinvasion.pk3
     Misc. Author Info       : We are Valhalla Gameplays, gaurdians of all things
@@ -66,7 +67,7 @@ valhallagameplays.info
     Dehacked/BEX Patch      : No
     Demos                   : No
     Other                   : Internal resources for future mappers
-    Other files required    : skulltag_content-3.0-beta01.pk3, Brutal Doom
+    Other files required    : skulltag_content-3.0-beta01.pk3
 
 
     * Play Information *
@@ -87,7 +88,7 @@ valhallagameplays.info
     Base                    : New 
     Build Time              : 9 months
     Editor(s) used          : GZDoom Builder, Slade 3
-    Known Bugs              : Please contact us if you encounter any!
+    Known Bugs              : Teleporter in VGPDM20 broken by Brutal Doom
     May Not Run With...     : Older engines/Vanilla engines 
 
 
@@ -102,3 +103,16 @@ valhallagameplays.info
     Web sites: http://vgp.rocks
     Repository: http://files.valhallagameplays.info/wads
     Git Repository: https://github.com/ValhallaGamePlays/VGP-Deathmatch
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////
+	//  _   _       _ _           _ _         _____                       ______ _                 	//
+	// | | | |     | | |         | | |       |  __ \                      | ___ \ |                	//
+	// | | | | __ _| | |__   __ _| | | __ _  | |  \/ __ _ _ __ ___   ___  | |_/ / | __ _ _   _ ___ 	//
+	// | | | |/ _` | | '_ \ / _` | | |/ _` | | | __ / _` | '_ ` _ \ / _ \ |  __/| |/ _` | | | / __|	//
+	// \ \_/ / (_| | | | | | (_| | | | (_| | | |_\ \ (_| | | | | | |  __/ | |   | | (_| | |_| \__ \	//
+	//  \___/ \__,_|_|_| |_|\__,_|_|_|\__,_|  \____/\__,_|_| |_| |_|\___| \_|   |_|\__,_|\__, |___/	//
+	//  VGP Official Website: https://vgp.rocks                                           __/ |    	//
+	//  VGP Official Discord Server: https://discord.me/VGP                              |___/    	//
+	//	VGP is primarily classic DooM, but welcomes most classic gaming and some newer too!			//
+	//	Come on in and enjoy the fun! 																//
+	//////////////////////////////////////////////////////////////////////////////////////////////////
