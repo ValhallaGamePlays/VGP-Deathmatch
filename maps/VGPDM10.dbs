@@ -1,0 +1,84 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	VGPDM10
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLAT10";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "E:\\Games\\Doom\\555_IWADS\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "FLAT1_1";
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				xpanningceiling = 1;
+				rotationfloor = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = -388.6281f;
+		viewpositiony = -171.8899f;
+		viewscale = 1.17f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 16f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "ROCK5";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "FLAT1_1";
+		defaultbottomtexture = "FLAT1_1";
+	}
+}
