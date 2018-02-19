@@ -40,9 +40,9 @@ map vgpdm04 "Red Plantet's Dirge"
 sky1 = "styx" , 0
 next = "vgpdm05"
 music = "DM_04"
-FogDensity = 4
-lightmode = 2
-fade = a94012
+OutsideFogDensity = 5
+lightmode = 0
+OutsideFog = a94012
 cluster = 2
 }
 
@@ -61,7 +61,7 @@ cluster = 2
 map vgpdm06 "Longest Ver. 1"
 
 {
-sky1 = "OLTX0328" , 0
+sky1 = "NEWMOON" , 0
 next = "vgpdm07"
 music = "DM_06"
 lightmode = 0
@@ -86,9 +86,9 @@ map vgpdm08 "Wild GunZ"
 sky1 = "OLTX0012" , 0
 next = "vgpdm09"
 music = "DM_08"
-FogDensity = 5
+OutsideFogDensity = 12
 lightmode = 2
-fade = a94012
+OutsideFog = 8C6D24
 cluster = 2
 }
 
@@ -131,10 +131,14 @@ cluster = 2
 map vgpdm12 "Pyramid"
 
 {
-sky1 = "styx" , 0
+sky1 = "PW_SKY01" , 0
 next = "vgpdm13"
 music = "DM_12"
+OutsideFog = 2c7ac4
+OutsideFogDensity = 8
 lightmode = 2
+Gravity = 750
+AirControl = 0.008
 cluster = 2
 }
 

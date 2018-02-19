@@ -1,0 +1,74 @@
+texture WTR_1_1 range WTR_1_8 tics 4 //still water
+
+texture WTR_2_1 range WTR_2_3 tics 4 //smaller still water
+
+texture WTR_3_1 range WTR_3_3 tics 4 //flowing water
+
+texture LAV_1_1 range LAV_1_4 tics 6 //small bubbling lava
+
+texture LAV_2_1 range LAV_2_3 tics 3 //lava falls
+
+texture LAV_3_1 range LAV_3_3 tics 10 //smoldering magma
+
+texture LAV_4_1 range LAV_4_2 tics 3 //lava dribbling off bricks 1
+
+texture LAV_5_1 range LAV_5_2 tics 3 //lava dribbling off bricks 2
+
+texture LAV_6_1 range LAV_6_2 tics 4 //lava pouring from pipe
+
+texture FIRE_1 range FIRE_3 tics 3 //fire! :O
+
+texture WETROCK1 range WETROCK3 tics 5 //rocks under shallow water
+
+texture WFL_1_1 range WFL_1_3 tics 3 //flowing water
+
+texture WFL_2_1 range WFL_2_3 tics 3 //flowing water from behind bars
+
+texture WFL_3_1 range WFL_3_3 tics 3 //flowing water from statue mouth
+
+texture HK_1_1 range HK_1_4 tics 6 //swinging hook
+
+texture HK_2_1 range HK_2_4 tics 6 //lots of swinging hooks
+
+//computers
+
+texture CMP_1_1 range CMP_1_4 tics 8 oscillate
+
+texture CMP_2_1 range CMP_2_3 tics 5
+
+texture CMP_3_1 range CMP_3_3 tics 5
+
+texture CMP_4_1 range CMP_4_3 tics 5
+
+//runes
+
+texture RNE_1_1 range RNE_1_4 tics 10 oscillate
+
+texture RNE_2_1 range RNE_2_4 tics 10 oscillate
+
+texture RNE_3_1 range RNE_3_4 tics 10 oscillate
+
+texture RNE_4_1 range RNE_4_4 tics 10 oscillate
+
+texture RNE_5_1 range RNE_5_4 tics 10 oscillate
+
+texture RNE_6_1 range RNE_6_4 tics 10 oscillate
+
+texture RNE_7_1 range RNE_7_4 tics 10 oscillate
+
+texture RNE_8_1 range RNE_8_4 tics 10 oscillate
+
+texture RNE_9_1 range RNE_9_4 tics 10 oscillate
+
+texture RNE_10_1 range RNE_10_4 tics 10 oscillate
+
+texture RNE_11_1 range RNE_11_4 tics 10 oscillate
+
+texture RNE_12_1 range RNE_12_4 tics 10 oscillate
+
+/*
+A lot of the textures will require mirroring in
+TEXTURES, or however you prefer to do it. (If you
+use ZDoom, and you prefer to edit the textures to
+be whole in an image editor, you suck.) --Ceeb
+*/
