@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "OLTX0758";
 		overridemiddletexture = false;
-		viewpositionx = 40.2637f;
-		viewpositiony = 362.7251f;
-		viewscale = 2.928923f;
+		viewpositionx = -339.327f;
+		viewpositiony = -635.8411f;
+		viewscale = 1.025494f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -46,7 +46,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 16f;
+			gridsize = 8f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -87,7 +87,7 @@ maps
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				gravity = 1;
-				rotationceiling = 1;
+				rotationceiling = 17;
 				rotationfloor = 1;
 				xpanningceiling = 1;
 				xscaleceiling = 1;
