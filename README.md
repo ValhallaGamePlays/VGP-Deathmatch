@@ -72,7 +72,7 @@ valhallagameplays.info
 
     * Play Information *
 
-    Game                    : DOOM2 (enhanced/modified)
+    Game                    : DOOM2 (enhanced)
     Map #                   : 1 - 20 (VGPDM01-VGPDM20)
     Single Player           : Yes
     Invasion 2-64 Player    : No
