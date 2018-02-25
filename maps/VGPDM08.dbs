@@ -25,6 +25,15 @@ maps
 			
 			resource1
 			{
+				type = 2;
+				location = "E:\\Games\\Doom\\skulltag_content-3.0-beta01.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
 				type = 1;
 				location = "C:\\Users\\Willam Andres\\Documents\\GitHub\\VGP-Deathmatch";
 				option1 = 0;
@@ -34,9 +43,9 @@ maps
 		}
 		defaulttoptexture = "OLTX0758";
 		overridemiddletexture = false;
-		viewpositionx = -339.327f;
-		viewpositiony = -635.8411f;
-		viewscale = 1.025494f;
+		viewpositionx = 430.9488f;
+		viewpositiony = -493.4561f;
+		viewscale = 0.6068f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -87,7 +96,7 @@ maps
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				gravity = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				rotationfloor = 1;
 				xpanningceiling = 1;
 				xscaleceiling = 1;
