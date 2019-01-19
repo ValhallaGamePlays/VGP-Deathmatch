@@ -46,14 +46,14 @@ OutsideFog = a94012
 cluster = 2
 }
 
-map vgpdm05 "East Testing Center"
+map vgpdm05 "Eastern Storage"
 
 {
 sky1 = "OLTX0328" , 0
 next = "vgpdm06"
 music = "DM_05"
-FogDensity = 2
-lightmode = 2
+FogDensity = 1
+lightmode = 1
 fade = a94012
 cluster = 2
 }
