@@ -2,13 +2,13 @@
 VGP Deathmatch Volume 1  
   
 Playable Beta is now available via Doomseeker and IDE!  
-104.131.136.102:10668  
+104.248.11.35:10666:10666 (dev.vgp.rocks:10666)  
   
 VGPDM is a community mapping project for Doom 2 Deathmatch. This is our second  
 group project consisting of 20 custom maps created by various members of the  
 Valhalla Game Plays community. This mappack consists of custom textures, 3D floors,  
-and inovative map design to bring you fast-pace, frag-filled action. Please feel      
-fee to contact us with any questions or concerns. Must be run with Skulltag content!  
+and inovative map design to bring you fast-paced, frag-filled action. Please feel      
+free to contact us with any questions or concerns. Must be run with Skulltag content!  
   
 Skulltag resource:  
 http://files.valhallagameplays.info/wads/skulltag_content-3.0-beta01.pk3  
@@ -26,7 +26,7 @@ valhallagameplays.info
     Primary purpose         : Multiplayer Deathmatch in Doom
     ===========================================================================
     Title                   : VGP Deathmatch Volume 1
-    Filename                : vgpdm-betaV1.pk3
+    Filename                : vgpdmbeta-v1.2.pk3
     Completion date         : 2/11/18
     Author(s)               : The Valhalla Game Plays Dev Team
                               -->=M= - VGPDM04, VGPDM13, VGPDM12 Overhaul, 
