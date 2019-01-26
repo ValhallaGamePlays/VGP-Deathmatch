@@ -86,9 +86,9 @@ map vgpdm08 "Wild GunZ"
 sky1 = "OLTX0012" , 0
 next = "vgpdm09"
 music = "DM_08"
-OutsideFogDensity = 12
+OutsideFogDensity = 1
 lightmode = 2
-OutsideFog = 8C6D24
+OutsideFog = 
 cluster = 2
 }
 

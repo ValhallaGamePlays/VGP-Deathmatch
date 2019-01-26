@@ -17,7 +17,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "C:\\Users\\DTM\\Documents\\Wads\\iwad\\DOOM2.WAD";
+				location = "C:\\Users\\Jeff\\Documents\\Wads\\iwad\\DOOM2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -26,7 +26,7 @@ maps
 			resource1
 			{
 				type = 1;
-				location = "C:\\Users\\DTM\\Documents\\GitHub\\VGP-Deathmatch";
+				location = "C:\\Users\\Jeff\\Documents\\GitHub\\VGP-Deathmatch";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "OLTX0202";
 		overridemiddletexture = false;
-		viewpositionx = 193.2555f;
-		viewpositiony = -203.8437f;
-		viewscale = 0.06274786f;
+		viewpositionx = 978.0551f;
+		viewpositiony = -385.2242f;
+		viewscale = 1.124541f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -50,6 +50,9 @@ maps
 			backscaley = 100;
 			backsource = 0;
 			gridsize = 8f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
 		}
 		defaultceiltexture = "FLOOR6_2";
 		overridebrightness = false;
@@ -95,6 +98,9 @@ maps
 				ypanningceiling = 1;
 				yscaleceiling = 1;
 				yscalefloor = 1;
+				ceilingglowcolor = 0;
+				floorglowcolor = 0;
+				lightcolor = 0;
 			}
 		}
 	}
