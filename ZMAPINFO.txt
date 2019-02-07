@@ -18,7 +18,7 @@ next = "vgpdm03"
 music = "DM_02"
 FogDensity = 4
 lightmode = 2
-fade = a94012
+fade = 
 cluster = 2
 }
 

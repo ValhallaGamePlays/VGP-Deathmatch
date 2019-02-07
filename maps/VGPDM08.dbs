@@ -34,9 +34,9 @@ maps
 		}
 		defaulttoptexture = "OLTX0202";
 		overridemiddletexture = false;
-		viewpositionx = 978.0551f;
-		viewpositiony = -385.2242f;
-		viewscale = 1.124541f;
+		viewpositionx = 1822.158f;
+		viewpositiony = -684.529f;
+		viewscale = 0.6156274f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -49,7 +49,7 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			backsource = 0;
-			gridsize = 8f;
+			gridsize = 4f;
 			gridrotate = 0f;
 			gridoriginx = 0f;
 			gridoriginy = 0f;
@@ -78,11 +78,11 @@ maps
 				scaley_top = 1;
 				offsetx_bottom = 1;
 				offsety_bottom = 1;
-				scalex_mid = 1;
-				scaley_mid = 1;
 				offsety_top = 1;
 				scalex_bottom = 1;
+				scalex_mid = 1;
 				scaley_bottom = 1;
+				scaley_mid = 1;
 			}
 			
 			sector
