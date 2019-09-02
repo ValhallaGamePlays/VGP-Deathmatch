@@ -110,9 +110,8 @@ map vgpdm10 "Choco Taco"
 sky1 = "styx" , 0
 next = "vgpdm11"
 music = "DM_10"
-FogDensity = 4
+FogDensity = 1
 lightmode = 2
-fade = a94012
 cluster = 2
 }
 
